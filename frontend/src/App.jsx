@@ -7,6 +7,7 @@ import Purchase from './pages/Purchase';
 import Call from './pages/Call';
 import Profile from './pages/Profile';
 import Session from './pages/Session';
+import Admin from './pages/Admin';
 
 // Protected Route Guard
 const ProtectedRoute = ({ children }) => {
@@ -83,6 +84,14 @@ function App() {
                     element={
                         <ProtectedRoute>
                             <Session />
+                        </ProtectedRoute>
+                    } 
+                />
+                <Route 
+                    path="/admin" 
+                    element={
+                        <ProtectedRoute>
+                            <Admin />
                         </ProtectedRoute>
                     } 
                 />

@@ -41,6 +41,22 @@ function parseCSVLine(line) {
 
 const seedCsvDoctors = async () => {
     try {
+        // Seed admin user if not exists
+        const adminExists = await User.findOne({ email: 'admin@doctor.com' });
+        if (!adminExists) {
+            await User.create({
+                email: 'admin@doctor.com',
+                password: '123456',
+                role: 'admin',
+                age: 30,
+                gender: 'Male',
+                bloodGroup: 'O+',
+                healthCondition: 'None',
+                insuranceId: 'ADMIN-001'
+            });
+            console.log('Admin credentials seeded: admin@doctor.com / 123456');
+        }
+
         const doctorCount = await Doctor.countDocuments();
         if (doctorCount > 10) {
             console.log('Doctors are already seeded. Skipping CSV import.');

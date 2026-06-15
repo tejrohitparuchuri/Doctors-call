@@ -6,7 +6,7 @@ import '../styles/purchase.css';
 const Purchase = () => {
     const location = useLocation();
     const navigate = useNavigate();
-    const { doctor } = location.state || {};
+    const { doctor, appointmentId } = location.state || {};
 
     const [consultationType, setConsultationType] = useState('online');
     const [paymentMethod, setPaymentMethod] = useState('card');
@@ -40,16 +40,23 @@ const Purchase = () => {
         setLoading(true);
 
         try {
-            // Book the appointment in DB
-            const tomorrow = new Date();
-            tomorrow.setDate(tomorrow.getDate() + 1);
-            tomorrow.setHours(14, 0, 0, 0); // Default to tomorrow at 2 PM
+            if (appointmentId) {
+                // User is paying for a pre-approved pending appointment
+                await api.post(`/appointments/${appointmentId}/pay`, {
+                    consultationType
+                });
+            } else {
+                // Fallback: create and confirm immediately
+                const tomorrow = new Date();
+                tomorrow.setDate(tomorrow.getDate() + 1);
+                tomorrow.setHours(14, 0, 0, 0);
 
-            await api.post('/appointments', {
-                doctorId: doctor._id,
-                dateTime: tomorrow,
-                consultationType // Pass consultation type
-            });
+                await api.post('/appointments', {
+                    doctorId: doctor._id,
+                    dateTime: tomorrow,
+                    consultationType
+                });
+            }
 
             setSuccessMessage(`Payment Successful! Connecting to your consultation view...`);
             setTimeout(() => {
@@ -57,7 +64,7 @@ const Purchase = () => {
             }, 2500);
         } catch (err) {
             console.error('Payment booking failed', err);
-            setError('Payment verification failed. Please try again.');
+            setError(err.response?.data?.message || 'Payment verification failed. Please try again.');
         } finally {
             setLoading(false);
         }

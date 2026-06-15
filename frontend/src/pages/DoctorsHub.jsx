@@ -151,8 +151,26 @@ const DoctorsHub = () => {
         setSearchText('');
     };
 
-    const handleBookMatrix = (doc) => {
-        navigate('/purchase', { state: { doctor: doc } });
+    const handleBookMatrix = async (doc) => {
+        setBookingDocId(doc._id);
+        setBookingMessage('');
+        try {
+            const tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            tomorrow.setHours(14, 0, 0, 0);
+
+            await api.post('/appointments', {
+                doctorId: doc._id,
+                dateTime: tomorrow
+            });
+            setBookingMessage(`Booking request for ${doc.name} successfully submitted for admin approval! Navigate to the 'Session' tab to track status and pay once approved.`);
+            setTimeout(() => setBookingMessage(''), 8000);
+        } catch (err) {
+            console.error('Failed to book doctor', err);
+            setBookingMessage(err.response?.data?.message || 'Failed to submit booking request.');
+        } finally {
+            setBookingDocId(null);
+        }
     };
 
     const handleLogout = () => {

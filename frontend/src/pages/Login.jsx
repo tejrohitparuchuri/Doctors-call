@@ -66,7 +66,11 @@ const Login = () => {
         try {
             const response = await api.post('/auth/login', { email: loginEmail, password: loginPassword });
             localStorage.setItem('userInfo', JSON.stringify(response.data));
-            navigate('/profile');
+            if (response.data.role === 'admin') {
+                navigate('/admin');
+            } else {
+                navigate('/profile');
+            }
         } catch (error) {
             setLoginError(error.response?.data?.message || 'Invalid clinician authorization key');
         } finally {

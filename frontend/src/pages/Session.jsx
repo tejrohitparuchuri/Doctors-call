@@ -13,13 +13,20 @@ const Session = () => {
     const fetchSessions = async () => {
         try {
             const res = await api.get('/appointments/my');
-            // Filter active sessions: not expired, and still has calls remaining (or if it is offline, callsRemaining might still be checked or just active within 48h)
-            // Wait, the user said "till then he can make 2 calls to expire the session or see the map there"
-            // So if callsRemaining reaches 0, it expires. Or if 48h passes, it expires.
+            // Filter active sessions: 
+            // 1. Pending admin approval
+            // 2. Approved but unpaid
+            // 3. Paid (confirmed), not expired, and calls remaining > 0
             const active = res.data.filter(s => {
-                const expires = new Date(s.expiresAt);
-                const hasCalls = s.callsRemaining > 0;
-                return expires > new Date() && hasCalls;
+                if (s.status === 'pending' || s.status === 'approved') {
+                    return true;
+                }
+                if (s.status === 'confirmed') {
+                    const expires = new Date(s.expiresAt);
+                    const hasCalls = s.callsRemaining > 0;
+                    return expires > new Date() && hasCalls;
+                }
+                return false;
             });
             setSessions(active);
         } catch (err) {
@@ -47,6 +54,17 @@ const Session = () => {
     };
 
     const handleActionClick = async (session) => {
+        if (session.status === 'approved') {
+            // Redirect to purchase/checkout for this specific appointment
+            navigate('/purchase', { 
+                state: { 
+                    appointmentId: session._id, 
+                    doctor: session.doctorId 
+                } 
+            });
+            return;
+        }
+
         if (session.consultationType === 'online') {
             try {
                 // Decrement the calls remaining via the backend endpoint
@@ -63,13 +81,6 @@ const Session = () => {
                 fetchSessions(); // Refresh to reflect correct state
             }
         } else {
-            // For offline, it redirects to the call view where the coordinates & directions map is displayed
-            // Wait! The user says "or see the map there". If they click action, they can see the map there.
-            // We can also decrement the call count or just redirect to show the map.
-            // Let's decrement the count or just let them see the map. Decrementing calls remaining makes sense to track visits or we can just redirect to the map view!
-            // Wait, "till then he can make 2 calls to expire the session or see the map there"
-            // For offline, let's also decrement the count when they click to navigate/view map details, or just keep it open.
-            // Let's decrement so it counts as a protocol use, or just direct them. Let's make it decrement too so they get max 2 visits/views, or let them view without decrementing. Let's decrement for consistency or keep it simple. Let's decrement since they are accessing the session slot.
             try {
                 await api.post(`/appointments/${session._id}/use-call`);
                 navigate('/call', { 
@@ -86,8 +97,14 @@ const Session = () => {
     };
 
     // Calculate time remaining in hours and minutes
-    const getTimeRemainingText = (expiresAtStr) => {
-        const expiry = new Date(expiresAtStr);
+    const getTimeRemainingText = (session) => {
+        if (session.status === 'pending') {
+            return 'Awaiting Approval';
+        }
+        if (session.status === 'approved') {
+            return 'Awaiting Payment';
+        }
+        const expiry = new Date(session.expiresAt);
         const diffMs = expiry - currentTime;
         if (diffMs <= 0) return 'Expired';
         
@@ -129,7 +146,7 @@ const Session = () => {
                 ) : sessions.length === 0 ? (
                     <div className="no-sessions-card">
                         <h3>No Active Sessions Available</h3>
-                        <p>You currently do not have any paid consultation matrices. Visit the Doctors' Hub to authorize an appointment slot.</p>
+                        <p>You currently do not have any pending, approved, or paid consultation matrices. Visit the Doctors' Hub to authorize an appointment slot.</p>
                         <button className="btn-action" style={{ maxWidth: '200px' }} onClick={() => navigate('/hub')}>
                             GO TO HUB
                         </button>
@@ -143,8 +160,14 @@ const Session = () => {
                                         <span className={`session-type-badge ${session.consultationType}`}>
                                             {session.consultationType === 'online' ? 'Online Video' : 'Offline Clinic'}
                                         </span>
-                                        <span className="session-expiry-badge">
-                                            {getTimeRemainingText(session.expiresAt)}
+                                        <span 
+                                            className="session-expiry-badge" 
+                                            style={{
+                                                background: session.status === 'pending' ? 'rgba(245, 158, 11, 0.1)' : session.status === 'approved' ? 'rgba(59, 130, 246, 0.1)' : 'rgba(239, 68, 68, 0.1)',
+                                                color: session.status === 'pending' ? '#f59e0b' : session.status === 'approved' ? '#3b82f6' : 'var(--accent-red)'
+                                            }}
+                                        >
+                                            {getTimeRemainingText(session)}
                                         </span>
                                     </div>
                                     <div className="session-doc-name">{session.doctorId?.name || 'Dr. Medical Expert'}</div>
@@ -162,16 +185,37 @@ const Session = () => {
 
                                 <div className="session-actions">
                                     <div className="calls-remaining-text">
-                                        Remaining authorizations:{' '}
-                                        <span className="calls-remaining-highlight">
-                                            {session.callsRemaining} / 2
-                                        </span>
+                                        {session.status === 'pending' ? (
+                                            <span style={{ color: '#f59e0b' }}>Awaiting Admin Approval</span>
+                                        ) : session.status === 'approved' ? (
+                                            <span style={{ color: '#3b82f6' }}>Approved by Admin (Unpaid)</span>
+                                        ) : (
+                                            <>
+                                                Remaining authorizations:{' '}
+                                                <span className="calls-remaining-highlight">
+                                                    {session.callsRemaining} / 2
+                                                </span>
+                                            </>
+                                        )}
                                     </div>
                                     <button 
                                         className="btn-action"
+                                        disabled={session.status === 'pending'}
+                                        style={{
+                                            background: session.status === 'pending' ? 'rgba(255,255,255,0.05)' : session.status === 'approved' ? '#3b82f6' : 'var(--accent-red)',
+                                            color: session.status === 'pending' ? 'var(--text-secondary)' : '#ffffff',
+                                            cursor: session.status === 'pending' ? 'not-allowed' : 'pointer'
+                                        }}
                                         onClick={() => handleActionClick(session)}
                                     >
-                                        {session.consultationType === 'online' ? 'START CALL' : 'SEE MAP & NAVIGATE'}
+                                        {session.status === 'pending' 
+                                            ? 'AWAITING APPROVAL' 
+                                            : session.status === 'approved' 
+                                                ? 'PAY NOW' 
+                                                : session.consultationType === 'online' 
+                                                    ? 'START CALL' 
+                                                    : 'SEE MAP & NAVIGATE'
+                                        }
                                     </button>
                                 </div>
                             </div>
