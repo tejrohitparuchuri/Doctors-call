@@ -101,18 +101,3 @@ https://doctors--call.web.app/
      ```bash
      npm run dev
      ```
-
----
-
-## Production Cloud Deployment
-
-### Static Hosting Deploy (Firebase Hosting)
-- Configured via firebase.json and .firebaserc pointing to project doctors--call.
-- Compile production-grade bundle assets:
-  ```bash
-  npm run build
-  ```
-- Deploy to global hosting server:
-  ```bash
-  npx firebase deploy --only hosting
-  ```
