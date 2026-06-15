@@ -1,0 +1,1001 @@
+Doctor ID,Doctor Name,Experience (Years),Specialization,Avg Fee (INR),Place,Hospital Name,Rating
+DOC0001,Dr. Rahul Kumar,4,ENT Specialist,450,Hyderabad,"Manipal Hospital, Hyderabad",4.0
+DOC0002,Dr. Anil Kulkarni,8,General Physician,600,Mumbai,"Apollo Hospital, Mumbai",3.9
+DOC0003,Dr. Vijay Deshmukh,4,Psychiatrist,700,Pune,"Manipal Hospital, Pune",4.3
+DOC0004,Dr. Vikram Sharma,13,ENT Specialist,700,Kolkata,"Medanta The Medicity, Kolkata",4.0
+DOC0005,Dr. Manoj Mehta,9,Dermatologist,900,Delhi,"Yashoda Hospital, Delhi",4.8
+DOC0006,Dr. Meena Rao,5,ENT Specialist,600,Delhi,"Care Hospital, Delhi",3.9
+DOC0007,Dr. Sanjay Kapoor,26,General Physician,900,Delhi,"Apollo Hospital, Delhi",4.6
+DOC0008,Dr. Manoj Nair,8,Orthopedic Surgeon,750,Pune,"Medanta The Medicity, Pune",4.3
+DOC0009,Dr. Gaurav Mishra,13,Gynecologist,950,Hyderabad,"Medanta The Medicity, Hyderabad",4.6
+DOC0010,Dr. Rohit Gupta,13,Psychiatrist,900,Bangalore,"KIMS Hospital, Bangalore",4.3
+DOC0011,Dr. Pranav Kulkarni,17,Oncologist,1050,Mumbai,"Manipal Hospital, Mumbai",4.8
+DOC0012,Dr. Abhishek Mehta,28,Neurologist,1150,Hyderabad,"Global Hospital, Hyderabad",4.9
+DOC0013,Dr. Priya Patel,34,Ophthalmologist,1400,Bangalore,"Medanta The Medicity, Bangalore",4.0
+DOC0014,Dr. Alok Kulkarni,19,ENT Specialist,800,Pune,"Yashoda Hospital, Pune",4.1
+DOC0015,Dr. Ravi Deshmukh,34,Dermatologist,1250,Delhi,"Max Super Speciality Hospital, Delhi",4.6
+DOC0016,Dr. Abhishek Banerjee,7,Ophthalmologist,900,Ahmedabad,"AIMS, Ahmedabad",4.1
+DOC0017,Dr. Aisha Sharma,10,Oncologist,950,Kolkata,"Fortis Healthcare, Kolkata",4.2
+DOC0018,Dr. Rajesh Choudhury,3,ENT Specialist,450,Bangalore,"AIMS, Bangalore",4.9
+DOC0019,Dr. Nitin Nair,35,General Physician,1100,Bangalore,"Yashoda Hospital, Bangalore",4.7
+DOC0020,Dr. Aisha Deshmukh,3,General Physician,450,Ahmedabad,"Apollo Hospital, Ahmedabad",3.9
+DOC0021,Dr. Anjali Nair,18,Cardiologist,1000,Delhi,"Fortis Healthcare, Delhi",4.7
+DOC0022,Dr. Gaurav Gupta,11,Pediatrician,700,Bangalore,"Medanta The Medicity, Bangalore",4.4
+DOC0023,Dr. Meena Banerjee,16,Psychiatrist,1000,Chennai,"Care Hospital, Chennai",5.0
+DOC0024,Dr. Rahul Mishra,31,Psychiatrist,1400,Delhi,"Manipal Hospital, Delhi",4.1
+DOC0025,Dr. Priya Sharma,17,General Physician,700,Mumbai,"Fortis Healthcare, Mumbai",4.6
+DOC0026,Dr. Aditya Joshi,7,Cardiologist,850,Delhi,"AIMS, Delhi",4.1
+DOC0027,Dr. Rohit Pillai,16,Psychiatrist,1000,Ahmedabad,"Manipal Hospital, Ahmedabad",4.7
+DOC0028,Dr. Abhishek Banerjee,15,Dermatologist,950,Pune,"Yashoda Hospital, Pune",4.3
+DOC0029,Dr. Sunita Verma,9,Cardiologist,900,Kolkata,"Fortis Healthcare, Kolkata",4.1
+DOC0030,Dr. Suresh Kulkarni,31,Pediatrician,1100,Bangalore,"Medanta The Medicity, Bangalore",4.4
+DOC0031,Dr. Nitin Gupta,31,Psychiatrist,1250,Mumbai,"AIMS, Mumbai",4.8
+DOC0032,Dr. Amit Joshi,13,Ophthalmologist,1000,Ahmedabad,"Manipal Hospital, Ahmedabad",4.8
+DOC0033,Dr. Vikas Verma,13,Ophthalmologist,850,Pune,"Medanta The Medicity, Pune",4.9
+DOC0034,Dr. Abhishek Choudhury,21,Ophthalmologist,1200,Bangalore,"Manipal Hospital, Bangalore",4.2
+DOC0035,Dr. Aditya Bhasin,6,ENT Specialist,550,Mumbai,"Apollo Hospital, Mumbai",4.5
+DOC0036,Dr. Pooja Deshmukh,13,Cardiologist,850,Bangalore,"Fortis Healthcare, Bangalore",4.5
+DOC0037,Dr. Rohit Joshi,28,Dermatologist,1200,Mumbai,"Global Hospital, Mumbai",3.9
+DOC0038,Dr. Rohit Bhasin,23,Neurologist,1100,Kolkata,"Manipal Hospital, Kolkata",4.1
+DOC0039,Dr. Ravi Nair,32,Gynecologist,1250,Mumbai,"KIMS Hospital, Mumbai",4.5
+DOC0040,Dr. Sneha Kumar,7,Psychiatrist,800,Chennai,"Max Super Speciality Hospital, Chennai",4.9
+DOC0041,Dr. Vikas Gupta,18,Gynecologist,1050,Bangalore,"KIMS Hospital, Bangalore",4.8
+DOC0042,Dr. Sandeep Nair,3,Oncologist,750,Delhi,"Max Super Speciality Hospital, Delhi",4.1
+DOC0043,Dr. Vikas Kumar,12,Neurologist,950,Hyderabad,"Yashoda Hospital, Hyderabad",4.0
+DOC0044,Dr. Rahul Rao,35,Gastroenterologist,1450,Mumbai,"Fortis Healthcare, Mumbai",4.6
+DOC0045,Dr. Gaurav Rao,5,Cardiologist,850,Bangalore,"Medanta The Medicity, Bangalore",4.0
+DOC0046,Dr. Sunita Kulkarni,30,Psychiatrist,1250,Delhi,"Fortis Healthcare, Delhi",4.9
+DOC0047,Dr. Sandeep Singh,5,Gynecologist,800,Pune,"Max Super Speciality Hospital, Pune",3.9
+DOC0048,Dr. Anjali Verma,25,Orthopedic Surgeon,1200,Delhi,"Yashoda Hospital, Delhi",4.7
+DOC0049,Dr. Vikas Banerjee,12,Orthopedic Surgeon,900,Bangalore,"Care Hospital, Bangalore",3.8
+DOC0050,Dr. Alok Mehta,29,Oncologist,1200,Chennai,"Max Super Speciality Hospital, Chennai",4.7
+DOC0051,Dr. Anil Das,5,Gastroenterologist,800,Hyderabad,"KIMS Hospital, Hyderabad",4.2
+DOC0052,Dr. Gaurav Joshi,17,Cardiologist,1000,Pune,"Yashoda Hospital, Pune",4.1
+DOC0053,Dr. Amit Rao,25,Oncologist,1300,Kolkata,"Apollo Hospital, Kolkata",3.9
+DOC0054,Dr. Vikram Reddy,19,Cardiologist,950,Pune,"Yashoda Hospital, Pune",4.7
+DOC0055,Dr. Priya Banerjee,35,Dermatologist,1500,Hyderabad,"Medanta The Medicity, Hyderabad",3.9
+DOC0056,Dr. Neha Sharma,15,Gynecologist,1100,Delhi,"Yashoda Hospital, Delhi",4.5
+DOC0057,Dr. Rohit Kumar,22,Psychiatrist,1150,Pune,"Yashoda Hospital, Pune",4.3
+DOC0058,Dr. Sanjay Kulkarni,11,Orthopedic Surgeon,1000,Pune,"Max Super Speciality Hospital, Pune",4.5
+DOC0059,Dr. Sanjay Das,3,Neurologist,750,Hyderabad,"Care Hospital, Hyderabad",4.7
+DOC0060,Dr. Meena Mehta,32,Gastroenterologist,1400,Hyderabad,"AIMS, Hyderabad",4.4
+DOC0061,Dr. Vikas Reddy,8,Neurologist,850,Delhi,"Manipal Hospital, Delhi",4.6
+DOC0062,Dr. Vijay Patel,12,Cardiologist,850,Hyderabad,"KIMS Hospital, Hyderabad",4.5
+DOC0063,Dr. Manoj Gupta,32,Ophthalmologist,1300,Pune,"KIMS Hospital, Pune",4.3
+DOC0064,Dr. Ravi Sharma,9,Ophthalmologist,800,Bangalore,"AIMS, Bangalore",4.4
+DOC0065,Dr. Aisha Joshi,10,Gastroenterologist,900,Ahmedabad,"AIMS, Ahmedabad",5.0
+DOC0066,Dr. Meena Mehta,31,General Physician,1100,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.7
+DOC0067,Dr. Kiran Choudhury,19,Orthopedic Surgeon,1050,Ahmedabad,"Manipal Hospital, Ahmedabad",4.1
+DOC0068,Dr. Amit Nair,18,Neurologist,1050,Kolkata,"AIMS, Kolkata",3.9
+DOC0069,Dr. Ravi Joshi,27,ENT Specialist,900,Hyderabad,"Fortis Healthcare, Hyderabad",4.3
+DOC0070,Dr. Priya Kulkarni,32,Ophthalmologist,1250,Hyderabad,"Care Hospital, Hyderabad",4.3
+DOC0071,Dr. Manoj Bhasin,4,General Physician,500,Ahmedabad,"Apollo Hospital, Ahmedabad",4.9
+DOC0072,Dr. Sanjay Das,29,Psychiatrist,1200,Ahmedabad,"Manipal Hospital, Ahmedabad",4.1
+DOC0073,Dr. Kiran Sharma,27,Gynecologist,1300,Bangalore,"KIMS Hospital, Bangalore",4.9
+DOC0074,Dr. Meena Kulkarni,4,Ophthalmologist,650,Delhi,"Care Hospital, Delhi",4.0
+DOC0075,Dr. Sunita Reddy,6,Neurologist,900,Kolkata,"Manipal Hospital, Kolkata",4.3
+DOC0076,Dr. Priya Das,20,Ophthalmologist,1150,Delhi,"KIMS Hospital, Delhi",3.8
+DOC0077,Dr. Aisha Verma,25,Orthopedic Surgeon,1150,Mumbai,"Apollo Hospital, Mumbai",4.9
+DOC0078,Dr. Suresh Sharma,12,Orthopedic Surgeon,900,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.5
+DOC0079,Dr. Suresh Choudhury,19,Gynecologist,1000,Delhi,"Max Super Speciality Hospital, Delhi",5.0
+DOC0080,Dr. Anil Bhasin,4,Neurologist,800,Pune,"Manipal Hospital, Pune",3.9
+DOC0081,Dr. Sandeep Joshi,9,ENT Specialist,550,Delhi,"Global Hospital, Delhi",4.7
+DOC0082,Dr. Anjali Kulkarni,30,Oncologist,1350,Delhi,"AIMS, Delhi",4.6
+DOC0083,Dr. Arjun Banerjee,34,Dermatologist,1400,Kolkata,"KIMS Hospital, Kolkata",4.6
+DOC0084,Dr. Neha Reddy,20,General Physician,900,Ahmedabad,"Care Hospital, Ahmedabad",4.8
+DOC0085,Dr. Sneha Rao,23,Orthopedic Surgeon,1050,Chennai,"KIMS Hospital, Chennai",4.1
+DOC0086,Dr. Sunita Bhasin,27,Gynecologist,1150,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.0
+DOC0087,Dr. Suresh Mishra,19,Gynecologist,1050,Chennai,"AIMS, Chennai",3.8
+DOC0088,Dr. Suresh Gupta,18,ENT Specialist,800,Ahmedabad,"AIMS, Ahmedabad",4.7
+DOC0089,Dr. Sandeep Pillai,34,Gastroenterologist,1250,Delhi,"Medanta The Medicity, Delhi",4.1
+DOC0090,Dr. Sandeep Joshi,22,Oncologist,1150,Ahmedabad,"AIMS, Ahmedabad",4.4
+DOC0091,Dr. Neha Kulkarni,24,Gynecologist,1200,Chennai,"Medanta The Medicity, Chennai",4.1
+DOC0092,Dr. Anil Patel,23,Dermatologist,1100,Hyderabad,"Manipal Hospital, Hyderabad",4.7
+DOC0093,Dr. Vikram Bhasin,21,Dermatologist,1100,Chennai,"Manipal Hospital, Chennai",4.2
+DOC0094,Dr. Sanjay Sharma,11,Neurologist,850,Mumbai,"AIMS, Mumbai",4.2
+DOC0095,Dr. Ravi Pillai,9,Cardiologist,850,Ahmedabad,"KIMS Hospital, Ahmedabad",4.3
+DOC0096,Dr. Rajesh Verma,19,Gastroenterologist,950,Delhi,"Care Hospital, Delhi",4.4
+DOC0097,Dr. Sneha Verma,12,Pediatrician,650,Delhi,"Manipal Hospital, Delhi",3.9
+DOC0098,Dr. Manoj Banerjee,17,Psychiatrist,1100,Ahmedabad,"KIMS Hospital, Ahmedabad",4.2
+DOC0099,Dr. Sneha Banerjee,22,General Physician,750,Delhi,"Manipal Hospital, Delhi",4.6
+DOC0100,Dr. Vikram Gupta,13,Orthopedic Surgeon,900,Delhi,"Max Super Speciality Hospital, Delhi",3.8
+DOC0101,Dr. Sunita Kapoor,33,Neurologist,1250,Hyderabad,"Medanta The Medicity, Hyderabad",4.6
+DOC0102,Dr. Sandeep Choudhury,7,Oncologist,800,Chennai,"Global Hospital, Chennai",4.6
+DOC0103,Dr. Pranav Patel,30,Dermatologist,1300,Bangalore,"Medanta The Medicity, Bangalore",4.8
+DOC0104,Dr. Amit Verma,13,Neurologist,950,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.4
+DOC0105,Dr. Sanjay Das,20,Psychiatrist,1200,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.5
+DOC0106,Dr. Vikas Banerjee,23,General Physician,850,Mumbai,"Fortis Healthcare, Mumbai",4.1
+DOC0107,Dr. Rohit Bhasin,4,Oncologist,750,Mumbai,"Max Super Speciality Hospital, Mumbai",4.4
+DOC0108,Dr. Rahul Choudhury,20,Pediatrician,900,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.4
+DOC0109,Dr. Neha Mehta,23,Oncologist,1050,Bangalore,"Yashoda Hospital, Bangalore",4.3
+DOC0110,Dr. Kiran Nair,28,Psychiatrist,1150,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.2
+DOC0111,Dr. Priya Kumar,28,Psychiatrist,1150,Ahmedabad,"Care Hospital, Ahmedabad",3.9
+DOC0112,Dr. Pooja Mishra,34,Oncologist,1400,Mumbai,"Manipal Hospital, Mumbai",4.1
+DOC0113,Dr. Ravi Nair,31,ENT Specialist,1100,Delhi,"Apollo Hospital, Delhi",5.0
+DOC0114,Dr. Meena Joshi,13,Neurologist,850,Pune,"Fortis Healthcare, Pune",4.1
+DOC0115,Dr. Gaurav Kumar,32,Dermatologist,1300,Ahmedabad,"Medanta The Medicity, Ahmedabad",4.4
+DOC0116,Dr. Vikram Banerjee,33,Gastroenterologist,1300,Ahmedabad,"AIMS, Ahmedabad",4.0
+DOC0117,Dr. Suresh Kapoor,35,ENT Specialist,1100,Delhi,"Medanta The Medicity, Delhi",4.7
+DOC0118,Dr. Nitin Banerjee,24,Psychiatrist,1150,Mumbai,"Medanta The Medicity, Mumbai",4.7
+DOC0119,Dr. Gaurav Bhasin,34,Pediatrician,1100,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.2
+DOC0120,Dr. Manoj Kulkarni,27,Gastroenterologist,1250,Hyderabad,"Manipal Hospital, Hyderabad",4.5
+DOC0121,Dr. Vijay Banerjee,5,Gynecologist,900,Pune,"Care Hospital, Pune",5.0
+DOC0122,Dr. Abhishek Singh,34,Cardiologist,1300,Kolkata,"Fortis Healthcare, Kolkata",4.8
+DOC0123,Dr. Sunita Kumar,32,Cardiologist,1300,Pune,"Max Super Speciality Hospital, Pune",3.9
+DOC0124,Dr. Abhishek Rao,24,General Physician,900,Delhi,"Yashoda Hospital, Delhi",4.8
+DOC0125,Dr. Nitin Kulkarni,27,Gynecologist,1300,Mumbai,"Global Hospital, Mumbai",3.9
+DOC0126,Dr. Rahul Nair,17,ENT Specialist,650,Pune,"Fortis Healthcare, Pune",4.7
+DOC0127,Dr. Sandeep Kumar,31,Pediatrician,1050,Mumbai,"Apollo Hospital, Mumbai",4.2
+DOC0128,Dr. Aditya Nair,25,Gynecologist,1300,Bangalore,"Manipal Hospital, Bangalore",4.4
+DOC0129,Dr. Sneha Reddy,13,Pediatrician,550,Pune,"Global Hospital, Pune",4.6
+DOC0130,Dr. Kiran Bhasin,12,Orthopedic Surgeon,1000,Chennai,"KIMS Hospital, Chennai",4.1
+DOC0131,Dr. Arjun Choudhury,21,Oncologist,1100,Delhi,"KIMS Hospital, Delhi",4.9
+DOC0132,Dr. Sneha Nair,30,ENT Specialist,1050,Ahmedabad,"Medanta The Medicity, Ahmedabad",4.0
+DOC0133,Dr. Deepika Pillai,9,Orthopedic Surgeon,900,Kolkata,"Global Hospital, Kolkata",4.2
+DOC0134,Dr. Sandeep Nair,4,Oncologist,800,Chennai,"Apollo Hospital, Chennai",4.5
+DOC0135,Dr. Rohit Verma,34,Neurologist,1300,Kolkata,"Manipal Hospital, Kolkata",4.6
+DOC0136,Dr. Meena Rao,11,Oncologist,850,Mumbai,"Medanta The Medicity, Mumbai",4.7
+DOC0137,Dr. Aditya Bhasin,26,ENT Specialist,900,Delhi,"Medanta The Medicity, Delhi",4.2
+DOC0138,Dr. Neha Reddy,15,Pediatrician,750,Chennai,"Max Super Speciality Hospital, Chennai",4.1
+DOC0139,Dr. Gaurav Pillai,21,ENT Specialist,850,Delhi,"KIMS Hospital, Delhi",5.0
+DOC0140,Dr. Ravi Joshi,28,Psychiatrist,1250,Delhi,"Care Hospital, Delhi",3.8
+DOC0141,Dr. Aisha Kumar,32,Gynecologist,1350,Pune,"Yashoda Hospital, Pune",3.9
+DOC0142,Dr. Vijay Pillai,4,General Physician,450,Hyderabad,"Fortis Healthcare, Hyderabad",4.6
+DOC0143,Dr. Sunita Nair,29,Dermatologist,1200,Mumbai,"Apollo Hospital, Mumbai",4.2
+DOC0144,Dr. Kiran Kumar,9,Orthopedic Surgeon,800,Pune,"KIMS Hospital, Pune",4.2
+DOC0145,Dr. Alok Kulkarni,29,General Physician,900,Pune,"Fortis Healthcare, Pune",4.8
+DOC0146,Dr. Meena Banerjee,20,Cardiologist,1150,Hyderabad,"KIMS Hospital, Hyderabad",4.3
+DOC0147,Dr. Vijay Mishra,9,Oncologist,850,Kolkata,"Apollo Hospital, Kolkata",4.3
+DOC0148,Dr. Suresh Kumar,32,Dermatologist,1300,Mumbai,"Apollo Hospital, Mumbai",4.7
+DOC0149,Dr. Vijay Singh,16,Dermatologist,1000,Hyderabad,"Manipal Hospital, Hyderabad",4.2
+DOC0150,Dr. Ravi Kapoor,3,Neurologist,700,Bangalore,"AIMS, Bangalore",4.1
+DOC0151,Dr. Rajesh Kumar,4,Pediatrician,350,Kolkata,"Manipal Hospital, Kolkata",4.5
+DOC0152,Dr. Arjun Reddy,19,Cardiologist,1000,Pune,"AIMS, Pune",3.9
+DOC0153,Dr. Amit Pillai,31,Gynecologist,1250,Ahmedabad,"AIMS, Ahmedabad",4.1
+DOC0154,Dr. Meena Verma,22,Gastroenterologist,1050,Mumbai,"KIMS Hospital, Mumbai",4.8
+DOC0155,Dr. Neha Kumar,34,ENT Specialist,1100,Delhi,"Fortis Healthcare, Delhi",4.2
+DOC0156,Dr. Ravi Gupta,11,Neurologist,950,Pune,"Global Hospital, Pune",4.4
+DOC0157,Dr. Sunita Deshmukh,30,Dermatologist,1250,Hyderabad,"Care Hospital, Hyderabad",4.3
+DOC0158,Dr. Vijay Banerjee,24,Gastroenterologist,1200,Pune,"Fortis Healthcare, Pune",4.2
+DOC0159,Dr. Priya Rao,26,Pediatrician,1000,Delhi,"Fortis Healthcare, Delhi",4.8
+DOC0160,Dr. Amit Banerjee,9,ENT Specialist,550,Bangalore,"AIMS, Bangalore",3.9
+DOC0161,Dr. Aisha Kulkarni,24,Oncologist,1050,Pune,"Yashoda Hospital, Pune",4.8
+DOC0162,Dr. Manoj Banerjee,6,Neurologist,850,Kolkata,"Fortis Healthcare, Kolkata",4.5
+DOC0163,Dr. Suresh Singh,33,Orthopedic Surgeon,1250,Kolkata,"AIMS, Kolkata",4.2
+DOC0164,Dr. Manoj Rao,17,Ophthalmologist,950,Chennai,"Apollo Hospital, Chennai",4.0
+DOC0165,Dr. Sandeep Nair,24,Gynecologist,1050,Bangalore,"Max Super Speciality Hospital, Bangalore",4.5
+DOC0166,Dr. Deepika Gupta,12,ENT Specialist,550,Delhi,"AIMS, Delhi",4.1
+DOC0167,Dr. Neha Choudhury,24,Pediatrician,850,Chennai,"Yashoda Hospital, Chennai",4.7
+DOC0168,Dr. Sneha Kapoor,8,Cardiologist,800,Bangalore,"Global Hospital, Bangalore",3.9
+DOC0169,Dr. Amit Rao,31,Oncologist,1400,Ahmedabad,"Global Hospital, Ahmedabad",4.3
+DOC0170,Dr. Vikram Patel,35,Dermatologist,1450,Pune,"Fortis Healthcare, Pune",4.1
+DOC0171,Dr. Rohit Bhasin,34,Psychiatrist,1350,Mumbai,"Manipal Hospital, Mumbai",4.3
+DOC0172,Dr. Meena Verma,3,Orthopedic Surgeon,750,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.7
+DOC0173,Dr. Sanjay Mehta,10,Cardiologist,1000,Pune,"Max Super Speciality Hospital, Pune",4.0
+DOC0174,Dr. Aisha Joshi,35,Psychiatrist,1450,Delhi,"Care Hospital, Delhi",4.8
+DOC0175,Dr. Aditya Banerjee,4,Gastroenterologist,650,Kolkata,"Global Hospital, Kolkata",4.3
+DOC0176,Dr. Deepika Banerjee,21,Dermatologist,1200,Mumbai,"Yashoda Hospital, Mumbai",4.0
+DOC0177,Dr. Meena Choudhury,26,Dermatologist,1300,Delhi,"Manipal Hospital, Delhi",4.3
+DOC0178,Dr. Deepika Deshmukh,8,Ophthalmologist,850,Kolkata,"Manipal Hospital, Kolkata",4.2
+DOC0179,Dr. Rajesh Gupta,35,Oncologist,1350,Hyderabad,"Yashoda Hospital, Hyderabad",4.2
+DOC0180,Dr. Gaurav Singh,18,Dermatologist,1000,Chennai,"Manipal Hospital, Chennai",4.0
+DOC0181,Dr. Ravi Gupta,14,Oncologist,1000,Ahmedabad,"Global Hospital, Ahmedabad",4.7
+DOC0182,Dr. Sunita Bhasin,23,Oncologist,1150,Bangalore,"KIMS Hospital, Bangalore",3.9
+DOC0183,Dr. Sunita Nair,20,General Physician,750,Kolkata,"AIMS, Kolkata",3.9
+DOC0184,Dr. Sunita Choudhury,5,Cardiologist,850,Chennai,"Fortis Healthcare, Chennai",4.6
+DOC0185,Dr. Nitin Gupta,35,Ophthalmologist,1500,Mumbai,"KIMS Hospital, Mumbai",4.9
+DOC0186,Dr. Sneha Patel,23,General Physician,900,Bangalore,"Apollo Hospital, Bangalore",4.3
+DOC0187,Dr. Abhishek Mehta,8,Psychiatrist,800,Mumbai,"Manipal Hospital, Mumbai",4.6
+DOC0188,Dr. Sunita Deshmukh,13,Gynecologist,950,Chennai,"Care Hospital, Chennai",4.3
+DOC0189,Dr. Priya Kapoor,6,Oncologist,850,Delhi,"Yashoda Hospital, Delhi",3.9
+DOC0190,Dr. Rohit Das,21,Neurologist,1100,Kolkata,"Fortis Healthcare, Kolkata",4.5
+DOC0191,Dr. Ravi Mishra,22,Oncologist,1200,Bangalore,"Global Hospital, Bangalore",4.7
+DOC0192,Dr. Amit Nair,27,Oncologist,1250,Bangalore,"AIMS, Bangalore",3.9
+DOC0193,Dr. Rohit Banerjee,35,Gynecologist,1350,Kolkata,"Medanta The Medicity, Kolkata",4.0
+DOC0194,Dr. Suresh Mehta,34,Orthopedic Surgeon,1300,Bangalore,"Max Super Speciality Hospital, Bangalore",3.9
+DOC0195,Dr. Nitin Kumar,35,Psychiatrist,1350,Kolkata,"Global Hospital, Kolkata",4.0
+DOC0196,Dr. Deepika Singh,13,Pediatrician,600,Ahmedabad,"Apollo Hospital, Ahmedabad",4.3
+DOC0197,Dr. Rohit Joshi,31,General Physician,1050,Ahmedabad,"Manipal Hospital, Ahmedabad",4.4
+DOC0198,Dr. Sanjay Pillai,15,Gynecologist,1100,Ahmedabad,"Medanta The Medicity, Ahmedabad",4.7
+DOC0199,Dr. Pooja Deshmukh,29,Pediatrician,900,Bangalore,"Medanta The Medicity, Bangalore",3.9
+DOC0200,Dr. Kiran Mishra,9,ENT Specialist,450,Chennai,"Fortis Healthcare, Chennai",4.7
+DOC0201,Dr. Vikram Choudhury,35,Pediatrician,1200,Delhi,"Manipal Hospital, Delhi",4.8
+DOC0202,Dr. Vikas Mishra,4,Ophthalmologist,650,Pune,"AIMS, Pune",4.2
+DOC0203,Dr. Deepika Gupta,26,Orthopedic Surgeon,1150,Kolkata,"Fortis Healthcare, Kolkata",4.8
+DOC0204,Dr. Rahul Mehta,12,Pediatrician,550,Chennai,"KIMS Hospital, Chennai",4.6
+DOC0205,Dr. Ravi Pillai,31,General Physician,950,Delhi,"Apollo Hospital, Delhi",4.1
+DOC0206,Dr. Gaurav Singh,30,Dermatologist,1350,Hyderabad,"Medanta The Medicity, Hyderabad",3.9
+DOC0207,Dr. Vijay Banerjee,32,Dermatologist,1250,Ahmedabad,"Global Hospital, Ahmedabad",4.4
+DOC0208,Dr. Rahul Deshmukh,18,ENT Specialist,700,Chennai,"Care Hospital, Chennai",3.8
+DOC0209,Dr. Anjali Joshi,29,Pediatrician,850,Kolkata,"Fortis Healthcare, Kolkata",4.9
+DOC0210,Dr. Aisha Deshmukh,35,Psychiatrist,1350,Pune,"KIMS Hospital, Pune",3.9
+DOC0211,Dr. Deepika Mishra,19,ENT Specialist,650,Kolkata,"Fortis Healthcare, Kolkata",4.2
+DOC0212,Dr. Alok Kumar,24,Pediatrician,750,Kolkata,"AIMS, Kolkata",4.2
+DOC0213,Dr. Rahul Reddy,32,ENT Specialist,1100,Bangalore,"Max Super Speciality Hospital, Bangalore",3.9
+DOC0214,Dr. Manoj Choudhury,5,Neurologist,800,Mumbai,"Manipal Hospital, Mumbai",4.9
+DOC0215,Dr. Priya Nair,35,Ophthalmologist,1500,Chennai,"Apollo Hospital, Chennai",4.7
+DOC0216,Dr. Suresh Nair,25,Cardiologist,1250,Chennai,"Fortis Healthcare, Chennai",4.8
+DOC0217,Dr. Neha Das,31,Ophthalmologist,1350,Bangalore,"KIMS Hospital, Bangalore",4.6
+DOC0218,Dr. Anjali Deshmukh,20,Dermatologist,1200,Delhi,"Care Hospital, Delhi",4.5
+DOC0219,Dr. Gaurav Reddy,21,Gynecologist,1050,Delhi,"Yashoda Hospital, Delhi",4.6
+DOC0220,Dr. Sanjay Choudhury,30,Pediatrician,1100,Kolkata,"KIMS Hospital, Kolkata",3.9
+DOC0221,Dr. Nitin Mishra,30,Neurologist,1250,Delhi,"Care Hospital, Delhi",4.2
+DOC0222,Dr. Abhishek Reddy,4,Pediatrician,500,Mumbai,"Max Super Speciality Hospital, Mumbai",3.9
+DOC0223,Dr. Manoj Mishra,26,Ophthalmologist,1150,Bangalore,"KIMS Hospital, Bangalore",4.9
+DOC0224,Dr. Anjali Choudhury,7,General Physician,500,Kolkata,"Care Hospital, Kolkata",4.2
+DOC0225,Dr. Vikram Joshi,10,Cardiologist,900,Ahmedabad,"AIMS, Ahmedabad",4.3
+DOC0226,Dr. Aisha Kumar,19,Neurologist,1100,Hyderabad,"Global Hospital, Hyderabad",4.1
+DOC0227,Dr. Pranav Pillai,15,Dermatologist,1000,Delhi,"KIMS Hospital, Delhi",4.0
+DOC0228,Dr. Sandeep Choudhury,8,Oncologist,850,Kolkata,"Fortis Healthcare, Kolkata",4.5
+DOC0229,Dr. Sanjay Nair,13,ENT Specialist,600,Kolkata,"AIMS, Kolkata",4.1
+DOC0230,Dr. Suresh Singh,18,Gastroenterologist,950,Kolkata,"AIMS, Kolkata",4.5
+DOC0231,Dr. Sunita Kulkarni,11,General Physician,550,Delhi,"Medanta The Medicity, Delhi",4.3
+DOC0232,Dr. Sandeep Pillai,29,Ophthalmologist,1150,Bangalore,"Yashoda Hospital, Bangalore",4.6
+DOC0233,Dr. Sunita Choudhury,25,Pediatrician,900,Bangalore,"Care Hospital, Bangalore",4.4
+DOC0234,Dr. Nitin Verma,10,Psychiatrist,900,Chennai,"Max Super Speciality Hospital, Chennai",4.0
+DOC0235,Dr. Pranav Joshi,25,Psychiatrist,1250,Delhi,"Medanta The Medicity, Delhi",4.0
+DOC0236,Dr. Aisha Rao,11,Oncologist,950,Delhi,"AIMS, Delhi",4.6
+DOC0237,Dr. Sneha Bhasin,12,Pediatrician,650,Mumbai,"Apollo Hospital, Mumbai",3.9
+DOC0238,Dr. Rahul Bhasin,19,Oncologist,1000,Pune,"Global Hospital, Pune",4.6
+DOC0239,Dr. Kiran Kulkarni,21,Oncologist,1150,Ahmedabad,"Manipal Hospital, Ahmedabad",4.8
+DOC0240,Dr. Rohit Das,22,Gastroenterologist,1050,Mumbai,"Max Super Speciality Hospital, Mumbai",4.3
+DOC0241,Dr. Kiran Choudhury,16,Gynecologist,1000,Kolkata,"Yashoda Hospital, Kolkata",4.7
+DOC0242,Dr. Nitin Mishra,28,Pediatrician,950,Delhi,"Yashoda Hospital, Delhi",4.1
+DOC0243,Dr. Anil Rao,31,Orthopedic Surgeon,1300,Delhi,"Apollo Hospital, Delhi",4.1
+DOC0244,Dr. Deepika Kapoor,29,Orthopedic Surgeon,1200,Kolkata,"Global Hospital, Kolkata",4.7
+DOC0245,Dr. Suresh Reddy,34,Psychiatrist,1400,Ahmedabad,"Medanta The Medicity, Ahmedabad",4.4
+DOC0246,Dr. Amit Das,35,Gastroenterologist,1400,Hyderabad,"Global Hospital, Hyderabad",4.2
+DOC0247,Dr. Aditya Nair,34,General Physician,1100,Chennai,"AIMS, Chennai",3.8
+DOC0248,Dr. Anil Banerjee,11,Neurologist,950,Pune,"Yashoda Hospital, Pune",3.9
+DOC0249,Dr. Aditya Bhasin,15,Gynecologist,1050,Delhi,"Care Hospital, Delhi",4.4
+DOC0250,Dr. Manoj Kulkarni,20,General Physician,750,Bangalore,"Fortis Healthcare, Bangalore",4.3
+DOC0251,Dr. Abhishek Mehta,26,Pediatrician,900,Pune,"AIMS, Pune",3.8
+DOC0252,Dr. Aditya Singh,24,Gastroenterologist,1200,Bangalore,"Global Hospital, Bangalore",4.9
+DOC0253,Dr. Ravi Mehta,23,Pediatrician,900,Chennai,"Global Hospital, Chennai",4.2
+DOC0254,Dr. Gaurav Deshmukh,34,ENT Specialist,1050,Ahmedabad,"Apollo Hospital, Ahmedabad",4.2
+DOC0255,Dr. Rohit Kumar,29,General Physician,950,Mumbai,"Global Hospital, Mumbai",4.4
+DOC0256,Dr. Rahul Bhasin,17,ENT Specialist,650,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.4
+DOC0257,Dr. Alok Kapoor,27,Pediatrician,900,Mumbai,"Global Hospital, Mumbai",4.9
+DOC0258,Dr. Anil Patel,4,Gastroenterologist,750,Pune,"Max Super Speciality Hospital, Pune",4.3
+DOC0259,Dr. Suresh Banerjee,35,General Physician,1200,Mumbai,"Max Super Speciality Hospital, Mumbai",4.4
+DOC0260,Dr. Aisha Mehta,33,Psychiatrist,1400,Kolkata,"Max Super Speciality Hospital, Kolkata",4.4
+DOC0261,Dr. Aisha Mehta,25,Oncologist,1250,Ahmedabad,"Manipal Hospital, Ahmedabad",4.9
+DOC0262,Dr. Vikram Kulkarni,22,Orthopedic Surgeon,1150,Chennai,"Manipal Hospital, Chennai",4.6
+DOC0263,Dr. Kiran Mehta,33,Gynecologist,1350,Chennai,"Fortis Healthcare, Chennai",4.5
+DOC0264,Dr. Aisha Das,28,Gynecologist,1200,Chennai,"Apollo Hospital, Chennai",4.1
+DOC0265,Dr. Sandeep Gupta,25,Gastroenterologist,1250,Ahmedabad,"Manipal Hospital, Ahmedabad",4.0
+DOC0266,Dr. Aisha Rao,20,Pediatrician,750,Hyderabad,"Manipal Hospital, Hyderabad",3.9
+DOC0267,Dr. Vikas Deshmukh,17,Oncologist,1000,Mumbai,"Fortis Healthcare, Mumbai",4.3
+DOC0268,Dr. Sandeep Pillai,9,Oncologist,800,Mumbai,"AIMS, Mumbai",5.0
+DOC0269,Dr. Rajesh Banerjee,33,Gastroenterologist,1300,Chennai,"Yashoda Hospital, Chennai",4.1
+DOC0270,Dr. Aditya Gupta,17,Psychiatrist,950,Bangalore,"Care Hospital, Bangalore",4.9
+DOC0271,Dr. Rajesh Verma,28,Gastroenterologist,1200,Chennai,"Apollo Hospital, Chennai",3.8
+DOC0272,Dr. Sneha Kapoor,9,Gynecologist,850,Ahmedabad,"AIMS, Ahmedabad",4.4
+DOC0273,Dr. Vikas Singh,35,Gastroenterologist,1450,Hyderabad,"Fortis Healthcare, Hyderabad",4.2
+DOC0274,Dr. Alok Choudhury,19,ENT Specialist,700,Mumbai,"Yashoda Hospital, Mumbai",4.7
+DOC0275,Dr. Sneha Patel,14,General Physician,700,Pune,"AIMS, Pune",4.2
+DOC0276,Dr. Deepika Kumar,14,Pediatrician,700,Kolkata,"Manipal Hospital, Kolkata",3.8
+DOC0277,Dr. Deepika Joshi,31,Neurologist,1350,Chennai,"Global Hospital, Chennai",4.7
+DOC0278,Dr. Arjun Rao,26,ENT Specialist,900,Mumbai,"Fortis Healthcare, Mumbai",4.4
+DOC0279,Dr. Rajesh Das,35,ENT Specialist,1150,Delhi,"Medanta The Medicity, Delhi",4.2
+DOC0280,Dr. Vijay Joshi,11,Gastroenterologist,900,Ahmedabad,"Global Hospital, Ahmedabad",4.2
+DOC0281,Dr. Sandeep Kulkarni,33,Psychiatrist,1300,Hyderabad,"Global Hospital, Hyderabad",4.8
+DOC0282,Dr. Amit Deshmukh,31,Psychiatrist,1350,Delhi,"Global Hospital, Delhi",3.9
+DOC0283,Dr. Gaurav Kulkarni,35,Orthopedic Surgeon,1400,Bangalore,"Yashoda Hospital, Bangalore",4.8
+DOC0284,Dr. Sunita Kumar,16,ENT Specialist,800,Delhi,"AIMS, Delhi",4.3
+DOC0285,Dr. Aditya Choudhury,11,Psychiatrist,1000,Ahmedabad,"Global Hospital, Ahmedabad",3.9
+DOC0286,Dr. Sunita Nair,4,Ophthalmologist,750,Mumbai,"Manipal Hospital, Mumbai",4.5
+DOC0287,Dr. Aditya Banerjee,25,ENT Specialist,850,Mumbai,"Fortis Healthcare, Mumbai",5.0
+DOC0288,Dr. Kiran Verma,21,Ophthalmologist,1100,Bangalore,"Care Hospital, Bangalore",4.2
+DOC0289,Dr. Vikas Das,31,Ophthalmologist,1400,Delhi,"AIMS, Delhi",4.0
+DOC0290,Dr. Nitin Mishra,10,Pediatrician,700,Bangalore,"Manipal Hospital, Bangalore",4.8
+DOC0291,Dr. Manoj Sharma,22,Gastroenterologist,1200,Pune,"Manipal Hospital, Pune",4.1
+DOC0292,Dr. Anjali Singh,20,Orthopedic Surgeon,1050,Mumbai,"Care Hospital, Mumbai",4.5
+DOC0293,Dr. Pranav Sharma,18,Orthopedic Surgeon,950,Delhi,"Global Hospital, Delhi",3.8
+DOC0294,Dr. Meena Verma,18,ENT Specialist,650,Pune,"KIMS Hospital, Pune",4.1
+DOC0295,Dr. Suresh Verma,11,Psychiatrist,950,Hyderabad,"Global Hospital, Hyderabad",4.2
+DOC0296,Dr. Meena Mehta,18,Neurologist,1000,Hyderabad,"Care Hospital, Hyderabad",4.2
+DOC0297,Dr. Aditya Kulkarni,14,Oncologist,1000,Ahmedabad,"Apollo Hospital, Ahmedabad",5.0
+DOC0298,Dr. Rahul Das,23,ENT Specialist,900,Pune,"Max Super Speciality Hospital, Pune",4.2
+DOC0299,Dr. Rajesh Kulkarni,33,Orthopedic Surgeon,1300,Chennai,"Max Super Speciality Hospital, Chennai",4.8
+DOC0300,Dr. Pranav Verma,29,Ophthalmologist,1200,Pune,"Manipal Hospital, Pune",4.1
+DOC0301,Dr. Priya Gupta,31,Gynecologist,1250,Hyderabad,"Apollo Hospital, Hyderabad",4.1
+DOC0302,Dr. Rohit Kapoor,5,Dermatologist,800,Hyderabad,"KIMS Hospital, Hyderabad",4.1
+DOC0303,Dr. Pranav Mehta,22,Cardiologist,1100,Hyderabad,"Fortis Healthcare, Hyderabad",4.7
+DOC0304,Dr. Manoj Pillai,18,ENT Specialist,700,Pune,"Manipal Hospital, Pune",4.5
+DOC0305,Dr. Manoj Nair,27,Gastroenterologist,1250,Chennai,"Medanta The Medicity, Chennai",4.2
+DOC0306,Dr. Vikas Pillai,32,Dermatologist,1400,Kolkata,"Manipal Hospital, Kolkata",4.2
+DOC0307,Dr. Neha Verma,17,ENT Specialist,700,Mumbai,"Medanta The Medicity, Mumbai",4.5
+DOC0308,Dr. Sneha Bhasin,29,Neurologist,1200,Hyderabad,"Yashoda Hospital, Hyderabad",4.1
+DOC0309,Dr. Sneha Joshi,34,Psychiatrist,1350,Chennai,"KIMS Hospital, Chennai",5.0
+DOC0310,Dr. Rahul Pillai,32,Pediatrician,1050,Bangalore,"Max Super Speciality Hospital, Bangalore",4.7
+DOC0311,Dr. Kiran Reddy,6,Psychiatrist,750,Delhi,"Apollo Hospital, Delhi",4.7
+DOC0312,Dr. Neha Singh,17,Dermatologist,1000,Mumbai,"Manipal Hospital, Mumbai",4.4
+DOC0313,Dr. Anjali Verma,33,Oncologist,1400,Mumbai,"Apollo Hospital, Mumbai",4.4
+DOC0314,Dr. Neha Sharma,4,Psychiatrist,750,Chennai,"Apollo Hospital, Chennai",4.4
+DOC0315,Dr. Sandeep Banerjee,14,Dermatologist,850,Bangalore,"Manipal Hospital, Bangalore",4.0
+DOC0316,Dr. Pooja Rao,25,Neurologist,1300,Delhi,"Yashoda Hospital, Delhi",5.0
+DOC0317,Dr. Sunita Bhasin,18,ENT Specialist,700,Chennai,"Fortis Healthcare, Chennai",4.6
+DOC0318,Dr. Nitin Verma,8,Ophthalmologist,900,Pune,"AIMS, Pune",4.4
+DOC0319,Dr. Rahul Sharma,13,Dermatologist,1000,Pune,"Yashoda Hospital, Pune",4.5
+DOC0320,Dr. Nitin Kumar,5,Orthopedic Surgeon,800,Ahmedabad,"Medanta The Medicity, Ahmedabad",3.9
+DOC0321,Dr. Amit Rao,5,Pediatrician,550,Mumbai,"Manipal Hospital, Mumbai",4.5
+DOC0322,Dr. Manoj Das,7,Neurologist,800,Hyderabad,"Global Hospital, Hyderabad",4.8
+DOC0323,Dr. Deepika Kulkarni,24,Ophthalmologist,1100,Delhi,"AIMS, Delhi",4.7
+DOC0324,Dr. Anjali Verma,9,Ophthalmologist,800,Delhi,"Yashoda Hospital, Delhi",4.5
+DOC0325,Dr. Meena Kapoor,28,Gynecologist,1150,Chennai,"KIMS Hospital, Chennai",4.4
+DOC0326,Dr. Anjali Kulkarni,27,Ophthalmologist,1200,Pune,"Fortis Healthcare, Pune",4.7
+DOC0327,Dr. Sanjay Joshi,7,Dermatologist,850,Bangalore,"Care Hospital, Bangalore",4.7
+DOC0328,Dr. Rahul Singh,27,Gynecologist,1250,Delhi,"Fortis Healthcare, Delhi",3.8
+DOC0329,Dr. Sanjay Choudhury,26,Neurologist,1150,Bangalore,"Fortis Healthcare, Bangalore",4.0
+DOC0330,Dr. Sunita Kulkarni,35,Ophthalmologist,1350,Mumbai,"Fortis Healthcare, Mumbai",4.2
+DOC0331,Dr. Amit Kapoor,23,Ophthalmologist,1050,Chennai,"Care Hospital, Chennai",4.3
+DOC0332,Dr. Amit Kulkarni,18,General Physician,700,Pune,"Max Super Speciality Hospital, Pune",4.0
+DOC0333,Dr. Sanjay Rao,34,Pediatrician,950,Bangalore,"Care Hospital, Bangalore",4.1
+DOC0334,Dr. Sanjay Pillai,7,Gynecologist,850,Hyderabad,"KIMS Hospital, Hyderabad",4.5
+DOC0335,Dr. Suresh Choudhury,9,Pediatrician,550,Mumbai,"Care Hospital, Mumbai",4.2
+DOC0336,Dr. Meena Das,24,Gastroenterologist,1150,Pune,"Global Hospital, Pune",4.0
+DOC0337,Dr. Priya Kapoor,15,Gastroenterologist,1050,Bangalore,"Care Hospital, Bangalore",5.0
+DOC0338,Dr. Sanjay Pillai,18,Gynecologist,1100,Chennai,"Care Hospital, Chennai",4.2
+DOC0339,Dr. Pranav Bhasin,15,General Physician,700,Mumbai,"KIMS Hospital, Mumbai",4.9
+DOC0340,Dr. Suresh Choudhury,21,ENT Specialist,750,Pune,"KIMS Hospital, Pune",4.0
+DOC0341,Dr. Sanjay Joshi,19,Oncologist,1000,Pune,"Care Hospital, Pune",3.9
+DOC0342,Dr. Meena Pillai,28,Psychiatrist,1300,Mumbai,"Yashoda Hospital, Mumbai",4.6
+DOC0343,Dr. Abhishek Kulkarni,8,Dermatologist,800,Kolkata,"Max Super Speciality Hospital, Kolkata",4.6
+DOC0344,Dr. Aditya Bhasin,28,Gynecologist,1300,Delhi,"Apollo Hospital, Delhi",3.9
+DOC0345,Dr. Vijay Deshmukh,17,Gastroenterologist,1050,Pune,"KIMS Hospital, Pune",4.7
+DOC0346,Dr. Sneha Deshmukh,12,Gynecologist,850,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.2
+DOC0347,Dr. Pranav Gupta,10,ENT Specialist,600,Kolkata,"Medanta The Medicity, Kolkata",4.2
+DOC0348,Dr. Abhishek Patel,33,Gynecologist,1400,Delhi,"KIMS Hospital, Delhi",4.7
+DOC0349,Dr. Sunita Mehta,7,Neurologist,750,Delhi,"Apollo Hospital, Delhi",4.8
+DOC0350,Dr. Rahul Kumar,13,ENT Specialist,600,Bangalore,"AIMS, Bangalore",4.0
+DOC0351,Dr. Aisha Banerjee,32,Orthopedic Surgeon,1400,Bangalore,"Max Super Speciality Hospital, Bangalore",4.6
+DOC0352,Dr. Neha Das,4,ENT Specialist,400,Ahmedabad,"Global Hospital, Ahmedabad",4.3
+DOC0353,Dr. Arjun Patel,16,Neurologist,950,Delhi,"AIMS, Delhi",4.0
+DOC0354,Dr. Priya Patel,32,Dermatologist,1350,Ahmedabad,"AIMS, Ahmedabad",5.0
+DOC0355,Dr. Priya Kapoor,27,General Physician,1000,Delhi,"Yashoda Hospital, Delhi",4.2
+DOC0356,Dr. Sunita Kapoor,14,Oncologist,950,Delhi,"Max Super Speciality Hospital, Delhi",4.2
+DOC0357,Dr. Vijay Nair,10,Pediatrician,650,Bangalore,"AIMS, Bangalore",4.3
+DOC0358,Dr. Meena Singh,27,Ophthalmologist,1200,Ahmedabad,"AIMS, Ahmedabad",4.6
+DOC0359,Dr. Rahul Reddy,13,Gastroenterologist,950,Bangalore,"Max Super Speciality Hospital, Bangalore",4.2
+DOC0360,Dr. Sunita Kapoor,6,Gynecologist,750,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.0
+DOC0361,Dr. Deepika Kulkarni,35,Oncologist,1500,Pune,"KIMS Hospital, Pune",4.3
+DOC0362,Dr. Gaurav Choudhury,34,Pediatrician,950,Mumbai,"Manipal Hospital, Mumbai",4.2
+DOC0363,Dr. Vikram Joshi,21,Pediatrician,900,Ahmedabad,"AIMS, Ahmedabad",4.4
+DOC0364,Dr. Sneha Kumar,20,Psychiatrist,1150,Mumbai,"KIMS Hospital, Mumbai",4.5
+DOC0365,Dr. Neha Kumar,18,Neurologist,950,Ahmedabad,"Medanta The Medicity, Ahmedabad",4.2
+DOC0366,Dr. Gaurav Gupta,31,Dermatologist,1300,Hyderabad,"Global Hospital, Hyderabad",4.6
+DOC0367,Dr. Nitin Kapoor,30,Pediatrician,1000,Hyderabad,"Manipal Hospital, Hyderabad",4.8
+DOC0368,Dr. Sneha Mishra,20,General Physician,800,Kolkata,"Medanta The Medicity, Kolkata",4.1
+DOC0369,Dr. Vikram Deshmukh,9,Pediatrician,600,Mumbai,"Medanta The Medicity, Mumbai",4.8
+DOC0370,Dr. Ravi Singh,18,Pediatrician,750,Hyderabad,"Care Hospital, Hyderabad",4.4
+DOC0371,Dr. Sneha Rao,29,Ophthalmologist,1300,Delhi,"Fortis Healthcare, Delhi",4.3
+DOC0372,Dr. Alok Rao,26,Gastroenterologist,1300,Kolkata,"Global Hospital, Kolkata",3.8
+DOC0373,Dr. Manoj Gupta,32,Oncologist,1350,Delhi,"AIMS, Delhi",4.3
+DOC0374,Dr. Neha Patel,34,Neurologist,1350,Chennai,"Yashoda Hospital, Chennai",4.5
+DOC0375,Dr. Ravi Bhasin,34,Gynecologist,1250,Mumbai,"Fortis Healthcare, Mumbai",4.6
+DOC0376,Dr. Gaurav Choudhury,4,Dermatologist,700,Ahmedabad,"KIMS Hospital, Ahmedabad",3.8
+DOC0377,Dr. Neha Patel,11,Oncologist,950,Bangalore,"Medanta The Medicity, Bangalore",3.9
+DOC0378,Dr. Anjali Rao,8,Gynecologist,800,Mumbai,"Care Hospital, Mumbai",4.6
+DOC0379,Dr. Alok Joshi,30,Oncologist,1250,Delhi,"Apollo Hospital, Delhi",4.1
+DOC0380,Dr. Amit Singh,17,Psychiatrist,1100,Mumbai,"Apollo Hospital, Mumbai",4.6
+DOC0381,Dr. Gaurav Kumar,30,ENT Specialist,1000,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.1
+DOC0382,Dr. Amit Kumar,9,Gynecologist,850,Chennai,"Max Super Speciality Hospital, Chennai",4.3
+DOC0383,Dr. Gaurav Singh,12,Dermatologist,850,Bangalore,"KIMS Hospital, Bangalore",4.2
+DOC0384,Dr. Suresh Singh,29,General Physician,1000,Hyderabad,"Fortis Healthcare, Hyderabad",4.9
+DOC0385,Dr. Ravi Kumar,27,Gynecologist,1300,Kolkata,"Max Super Speciality Hospital, Kolkata",4.1
+DOC0386,Dr. Rahul Gupta,18,Psychiatrist,1050,Mumbai,"Medanta The Medicity, Mumbai",4.0
+DOC0387,Dr. Meena Deshmukh,15,ENT Specialist,800,Chennai,"Apollo Hospital, Chennai",4.7
+DOC0388,Dr. Abhishek Joshi,34,Ophthalmologist,1250,Hyderabad,"KIMS Hospital, Hyderabad",4.6
+DOC0389,Dr. Amit Deshmukh,3,Gynecologist,750,Bangalore,"Care Hospital, Bangalore",4.8
+DOC0390,Dr. Sneha Banerjee,26,Psychiatrist,1200,Ahmedabad,"Fortis Healthcare, Ahmedabad",3.8
+DOC0391,Dr. Amit Sharma,19,Orthopedic Surgeon,950,Mumbai,"Care Hospital, Mumbai",4.4
+DOC0392,Dr. Rahul Deshmukh,29,Ophthalmologist,1300,Delhi,"AIMS, Delhi",4.4
+DOC0393,Dr. Ravi Rao,8,Neurologist,750,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.4
+DOC0394,Dr. Deepika Bhasin,7,Neurologist,900,Hyderabad,"Apollo Hospital, Hyderabad",4.1
+DOC0395,Dr. Pranav Banerjee,10,Gastroenterologist,850,Chennai,"Max Super Speciality Hospital, Chennai",3.9
+DOC0396,Dr. Sandeep Singh,3,Pediatrician,500,Kolkata,"AIMS, Kolkata",4.4
+DOC0397,Dr. Gaurav Rao,13,Gynecologist,900,Chennai,"Fortis Healthcare, Chennai",4.7
+DOC0398,Dr. Arjun Mehta,30,Neurologist,1250,Chennai,"Global Hospital, Chennai",4.6
+DOC0399,Dr. Kiran Choudhury,35,Gynecologist,1350,Ahmedabad,"Global Hospital, Ahmedabad",4.0
+DOC0400,Dr. Rajesh Rao,9,General Physician,450,Hyderabad,"AIMS, Hyderabad",3.8
+DOC0401,Dr. Nitin Sharma,18,Cardiologist,1100,Kolkata,"Care Hospital, Kolkata",4.9
+DOC0402,Dr. Rajesh Verma,29,Orthopedic Surgeon,1250,Hyderabad,"Care Hospital, Hyderabad",4.9
+DOC0403,Dr. Priya Rao,7,General Physician,550,Delhi,"AIMS, Delhi",4.6
+DOC0404,Dr. Aditya Reddy,17,Psychiatrist,950,Pune,"Fortis Healthcare, Pune",4.9
+DOC0405,Dr. Nitin Nair,22,Gynecologist,1050,Ahmedabad,"Apollo Hospital, Ahmedabad",4.2
+DOC0406,Dr. Sanjay Bhasin,22,ENT Specialist,800,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.5
+DOC0407,Dr. Kiran Patel,18,Pediatrician,650,Pune,"Apollo Hospital, Pune",4.1
+DOC0408,Dr. Anjali Sharma,24,Cardiologist,1200,Chennai,"Fortis Healthcare, Chennai",4.0
+DOC0409,Dr. Vijay Banerjee,34,Cardiologist,1300,Chennai,"Fortis Healthcare, Chennai",3.9
+DOC0410,Dr. Vijay Deshmukh,29,ENT Specialist,950,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.5
+DOC0411,Dr. Pooja Singh,28,Dermatologist,1150,Pune,"Max Super Speciality Hospital, Pune",4.1
+DOC0412,Dr. Vikram Mehta,28,ENT Specialist,950,Kolkata,"KIMS Hospital, Kolkata",4.1
+DOC0413,Dr. Amit Patel,11,General Physician,550,Bangalore,"Fortis Healthcare, Bangalore",4.0
+DOC0414,Dr. Sunita Mehta,29,Dermatologist,1250,Hyderabad,"KIMS Hospital, Hyderabad",4.2
+DOC0415,Dr. Vikram Kumar,8,Pediatrician,550,Mumbai,"Manipal Hospital, Mumbai",4.8
+DOC0416,Dr. Priya Singh,8,ENT Specialist,500,Kolkata,"Care Hospital, Kolkata",4.4
+DOC0417,Dr. Rohit Nair,19,Pediatrician,650,Pune,"KIMS Hospital, Pune",4.5
+DOC0418,Dr. Aisha Joshi,9,Gastroenterologist,750,Bangalore,"Fortis Healthcare, Bangalore",3.8
+DOC0419,Dr. Gaurav Joshi,11,Orthopedic Surgeon,1000,Kolkata,"Fortis Healthcare, Kolkata",4.5
+DOC0420,Dr. Vikram Gupta,4,Dermatologist,700,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",3.9
+DOC0421,Dr. Nitin Mehta,10,Cardiologist,1000,Mumbai,"Max Super Speciality Hospital, Mumbai",4.9
+DOC0422,Dr. Neha Das,34,Cardiologist,1400,Pune,"Max Super Speciality Hospital, Pune",4.2
+DOC0423,Dr. Pranav Reddy,20,Neurologist,1200,Bangalore,"Apollo Hospital, Bangalore",4.5
+DOC0424,Dr. Meena Joshi,21,Gastroenterologist,1200,Ahmedabad,"Apollo Hospital, Ahmedabad",3.9
+DOC0425,Dr. Deepika Singh,29,Orthopedic Surgeon,1200,Mumbai,"Care Hospital, Mumbai",4.7
+DOC0426,Dr. Anjali Pillai,34,Gynecologist,1350,Pune,"Medanta The Medicity, Pune",4.0
+DOC0427,Dr. Priya Kapoor,17,Cardiologist,1050,Mumbai,"KIMS Hospital, Mumbai",4.4
+DOC0428,Dr. Manoj Bhasin,17,Pediatrician,650,Hyderabad,"Manipal Hospital, Hyderabad",4.1
+DOC0429,Dr. Gaurav Verma,17,General Physician,800,Kolkata,"Max Super Speciality Hospital, Kolkata",4.0
+DOC0430,Dr. Sneha Mehta,25,General Physician,850,Kolkata,"Global Hospital, Kolkata",4.5
+DOC0431,Dr. Sneha Patel,34,Psychiatrist,1350,Bangalore,"KIMS Hospital, Bangalore",3.8
+DOC0432,Dr. Aditya Joshi,17,Cardiologist,1100,Mumbai,"Yashoda Hospital, Mumbai",4.9
+DOC0433,Dr. Suresh Singh,24,ENT Specialist,800,Kolkata,"Apollo Hospital, Kolkata",3.8
+DOC0434,Dr. Sneha Singh,10,Psychiatrist,950,Delhi,"Yashoda Hospital, Delhi",4.6
+DOC0435,Dr. Rohit Das,9,Gynecologist,850,Kolkata,"Max Super Speciality Hospital, Kolkata",5.0
+DOC0436,Dr. Alok Banerjee,34,Oncologist,1350,Bangalore,"AIMS, Bangalore",4.6
+DOC0437,Dr. Pranav Kapoor,25,Orthopedic Surgeon,1200,Pune,"Medanta The Medicity, Pune",4.7
+DOC0438,Dr. Sanjay Singh,14,ENT Specialist,550,Pune,"Global Hospital, Pune",3.8
+DOC0439,Dr. Meena Mehta,17,Oncologist,950,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.2
+DOC0440,Dr. Amit Joshi,25,Gynecologist,1200,Delhi,"Yashoda Hospital, Delhi",4.3
+DOC0441,Dr. Vikram Patel,18,ENT Specialist,650,Kolkata,"Medanta The Medicity, Kolkata",4.7
+DOC0442,Dr. Alok Sharma,6,Ophthalmologist,900,Pune,"Max Super Speciality Hospital, Pune",4.9
+DOC0443,Dr. Kiran Das,25,Psychiatrist,1300,Delhi,"KIMS Hospital, Delhi",4.7
+DOC0444,Dr. Sneha Joshi,13,Gastroenterologist,850,Mumbai,"Medanta The Medicity, Mumbai",3.8
+DOC0445,Dr. Vikram Kumar,7,Gynecologist,800,Pune,"Max Super Speciality Hospital, Pune",4.7
+DOC0446,Dr. Aisha Gupta,24,General Physician,900,Mumbai,"Care Hospital, Mumbai",4.9
+DOC0447,Dr. Rajesh Kapoor,30,Pediatrician,950,Delhi,"Yashoda Hospital, Delhi",4.0
+DOC0448,Dr. Suresh Banerjee,19,Oncologist,1050,Chennai,"Manipal Hospital, Chennai",3.9
+DOC0449,Dr. Deepika Bhasin,34,Pediatrician,950,Kolkata,"Apollo Hospital, Kolkata",4.3
+DOC0450,Dr. Sanjay Kapoor,33,Orthopedic Surgeon,1250,Mumbai,"Manipal Hospital, Mumbai",4.0
+DOC0451,Dr. Sanjay Gupta,33,Dermatologist,1350,Pune,"KIMS Hospital, Pune",4.4
+DOC0452,Dr. Rohit Rao,8,Oncologist,900,Bangalore,"Yashoda Hospital, Bangalore",4.9
+DOC0453,Dr. Anjali Reddy,31,Cardiologist,1350,Ahmedabad,"KIMS Hospital, Ahmedabad",4.1
+DOC0454,Dr. Gaurav Rao,6,Pediatrician,450,Delhi,"Yashoda Hospital, Delhi",4.8
+DOC0455,Dr. Neha Bhasin,17,Psychiatrist,950,Pune,"AIMS, Pune",4.3
+DOC0456,Dr. Aisha Pillai,18,Gastroenterologist,1050,Delhi,"Care Hospital, Delhi",4.9
+DOC0457,Dr. Sandeep Verma,35,General Physician,1100,Delhi,"KIMS Hospital, Delhi",4.0
+DOC0458,Dr. Rajesh Patel,15,Pediatrician,650,Pune,"Fortis Healthcare, Pune",5.0
+DOC0459,Dr. Neha Patel,12,General Physician,650,Kolkata,"Fortis Healthcare, Kolkata",3.9
+DOC0460,Dr. Aisha Das,23,Neurologist,1200,Mumbai,"Global Hospital, Mumbai",4.5
+DOC0461,Dr. Abhishek Banerjee,10,Ophthalmologist,900,Bangalore,"Global Hospital, Bangalore",4.5
+DOC0462,Dr. Manoj Kumar,9,General Physician,450,Chennai,"AIMS, Chennai",4.9
+DOC0463,Dr. Vikas Banerjee,19,Ophthalmologist,1100,Ahmedabad,"Apollo Hospital, Ahmedabad",4.0
+DOC0464,Dr. Deepika Singh,28,Cardiologist,1300,Kolkata,"Manipal Hospital, Kolkata",3.9
+DOC0465,Dr. Kiran Rao,26,Cardiologist,1250,Chennai,"Medanta The Medicity, Chennai",4.1
+DOC0466,Dr. Kiran Kumar,17,Pediatrician,750,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.1
+DOC0467,Dr. Neha Kapoor,8,Orthopedic Surgeon,900,Hyderabad,"Care Hospital, Hyderabad",4.7
+DOC0468,Dr. Manoj Deshmukh,26,Cardiologist,1200,Delhi,"Medanta The Medicity, Delhi",4.7
+DOC0469,Dr. Deepika Singh,4,Pediatrician,400,Hyderabad,"Apollo Hospital, Hyderabad",4.1
+DOC0470,Dr. Sunita Verma,26,ENT Specialist,900,Chennai,"Yashoda Hospital, Chennai",4.8
+DOC0471,Dr. Pooja Das,10,Oncologist,850,Hyderabad,"Yashoda Hospital, Hyderabad",4.4
+DOC0472,Dr. Sunita Reddy,33,General Physician,1050,Kolkata,"Max Super Speciality Hospital, Kolkata",4.8
+DOC0473,Dr. Vikram Gupta,21,Cardiologist,1200,Mumbai,"Max Super Speciality Hospital, Mumbai",4.8
+DOC0474,Dr. Manoj Patel,17,Oncologist,1000,Hyderabad,"Medanta The Medicity, Hyderabad",4.6
+DOC0475,Dr. Pooja Sharma,3,Gastroenterologist,700,Bangalore,"Global Hospital, Bangalore",4.8
+DOC0476,Dr. Vijay Rao,22,ENT Specialist,850,Pune,"Care Hospital, Pune",4.8
+DOC0477,Dr. Sunita Rao,16,Gastroenterologist,1050,Pune,"Global Hospital, Pune",3.9
+DOC0478,Dr. Pooja Mishra,21,Neurologist,1050,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.2
+DOC0479,Dr. Vikram Mehta,20,Neurologist,1150,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.4
+DOC0480,Dr. Vijay Verma,28,Oncologist,1250,Bangalore,"Apollo Hospital, Bangalore",4.6
+DOC0481,Dr. Sanjay Rao,29,Ophthalmologist,1300,Mumbai,"Global Hospital, Mumbai",4.6
+DOC0482,Dr. Sneha Patel,24,ENT Specialist,800,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.4
+DOC0483,Dr. Nitin Reddy,14,Neurologist,850,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.7
+DOC0484,Dr. Alok Kulkarni,14,Oncologist,950,Delhi,"Manipal Hospital, Delhi",4.2
+DOC0485,Dr. Alok Nair,29,Gynecologist,1250,Chennai,"Global Hospital, Chennai",4.2
+DOC0486,Dr. Nitin Kumar,33,Cardiologist,1250,Ahmedabad,"Manipal Hospital, Ahmedabad",4.4
+DOC0487,Dr. Nitin Das,22,Ophthalmologist,1050,Bangalore,"Max Super Speciality Hospital, Bangalore",5.0
+DOC0488,Dr. Priya Banerjee,32,Pediatrician,1050,Bangalore,"Fortis Healthcare, Bangalore",4.4
+DOC0489,Dr. Rahul Reddy,23,Oncologist,1050,Mumbai,"KIMS Hospital, Mumbai",4.1
+DOC0490,Dr. Manoj Reddy,13,Gastroenterologist,850,Bangalore,"Global Hospital, Bangalore",4.3
+DOC0491,Dr. Neha Das,30,Gastroenterologist,1400,Mumbai,"Apollo Hospital, Mumbai",4.4
+DOC0492,Dr. Alok Mishra,3,Gynecologist,700,Mumbai,"Apollo Hospital, Mumbai",4.6
+DOC0493,Dr. Vijay Joshi,25,Neurologist,1200,Delhi,"Care Hospital, Delhi",4.4
+DOC0494,Dr. Sanjay Reddy,7,Cardiologist,850,Chennai,"KIMS Hospital, Chennai",4.7
+DOC0495,Dr. Meena Deshmukh,24,Ophthalmologist,1100,Kolkata,"KIMS Hospital, Kolkata",4.2
+DOC0496,Dr. Suresh Reddy,28,Cardiologist,1200,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.1
+DOC0497,Dr. Arjun Bhasin,35,Pediatrician,1050,Kolkata,"Apollo Hospital, Kolkata",4.3
+DOC0498,Dr. Rahul Rao,6,General Physician,450,Delhi,"Apollo Hospital, Delhi",3.9
+DOC0499,Dr. Anil Banerjee,31,Ophthalmologist,1250,Chennai,"KIMS Hospital, Chennai",4.6
+DOC0500,Dr. Suresh Sharma,22,Ophthalmologist,1050,Chennai,"Global Hospital, Chennai",4.5
+DOC0501,Dr. Ravi Banerjee,9,Psychiatrist,750,Chennai,"Fortis Healthcare, Chennai",4.7
+DOC0502,Dr. Kiran Patel,15,Neurologist,1000,Kolkata,"Care Hospital, Kolkata",4.2
+DOC0503,Dr. Aditya Kulkarni,34,Orthopedic Surgeon,1400,Kolkata,"Manipal Hospital, Kolkata",3.8
+DOC0504,Dr. Rohit Gupta,10,General Physician,700,Bangalore,"Fortis Healthcare, Bangalore",4.7
+DOC0505,Dr. Amit Kumar,19,Oncologist,1000,Ahmedabad,"Medanta The Medicity, Ahmedabad",4.1
+DOC0506,Dr. Aditya Kumar,14,Cardiologist,950,Kolkata,"Yashoda Hospital, Kolkata",4.3
+DOC0507,Dr. Anil Kumar,5,Cardiologist,800,Bangalore,"Yashoda Hospital, Bangalore",4.2
+DOC0508,Dr. Sunita Kapoor,20,ENT Specialist,750,Kolkata,"Yashoda Hospital, Kolkata",4.0
+DOC0509,Dr. Deepika Das,32,Neurologist,1400,Ahmedabad,"Care Hospital, Ahmedabad",4.6
+DOC0510,Dr. Abhishek Reddy,10,Pediatrician,550,Bangalore,"Fortis Healthcare, Bangalore",4.3
+DOC0511,Dr. Sneha Pillai,31,Pediatrician,1100,Kolkata,"Global Hospital, Kolkata",3.8
+DOC0512,Dr. Rohit Singh,33,Gastroenterologist,1250,Pune,"KIMS Hospital, Pune",3.9
+DOC0513,Dr. Vikram Mehta,3,ENT Specialist,400,Kolkata,"AIMS, Kolkata",4.4
+DOC0514,Dr. Sandeep Kapoor,9,Ophthalmologist,800,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.6
+DOC0515,Dr. Rahul Das,12,Psychiatrist,850,Mumbai,"Max Super Speciality Hospital, Mumbai",4.4
+DOC0516,Dr. Kiran Pillai,13,Dermatologist,1000,Kolkata,"Manipal Hospital, Kolkata",4.2
+DOC0517,Dr. Vikram Verma,35,Orthopedic Surgeon,1500,Pune,"Manipal Hospital, Pune",3.9
+DOC0518,Dr. Sunita Bhasin,31,Dermatologist,1400,Ahmedabad,"Yashoda Hospital, Ahmedabad",3.9
+DOC0519,Dr. Kiran Sharma,9,Ophthalmologist,900,Mumbai,"AIMS, Mumbai",4.5
+DOC0520,Dr. Gaurav Gupta,22,Psychiatrist,1100,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.2
+DOC0521,Dr. Aditya Joshi,32,Gynecologist,1400,Kolkata,"KIMS Hospital, Kolkata",3.9
+DOC0522,Dr. Manoj Joshi,3,Gynecologist,750,Chennai,"AIMS, Chennai",4.4
+DOC0523,Dr. Sandeep Kumar,5,Pediatrician,600,Bangalore,"Care Hospital, Bangalore",3.9
+DOC0524,Dr. Meena Patel,15,Dermatologist,1100,Hyderabad,"KIMS Hospital, Hyderabad",4.8
+DOC0525,Dr. Suresh Mehta,9,Ophthalmologist,750,Delhi,"KIMS Hospital, Delhi",4.3
+DOC0526,Dr. Sneha Deshmukh,11,Gastroenterologist,850,Mumbai,"AIMS, Mumbai",4.9
+DOC0527,Dr. Gaurav Bhasin,33,Psychiatrist,1300,Bangalore,"Max Super Speciality Hospital, Bangalore",3.9
+DOC0528,Dr. Rohit Kapoor,23,Psychiatrist,1200,Pune,"Global Hospital, Pune",4.9
+DOC0529,Dr. Manoj Joshi,20,Ophthalmologist,1150,Chennai,"KIMS Hospital, Chennai",4.8
+DOC0530,Dr. Ravi Banerjee,35,Neurologist,1450,Hyderabad,"Manipal Hospital, Hyderabad",4.1
+DOC0531,Dr. Sandeep Nair,25,Oncologist,1200,Bangalore,"AIMS, Bangalore",4.5
+DOC0532,Dr. Rahul Mehta,10,Gynecologist,1000,Pune,"AIMS, Pune",4.1
+DOC0533,Dr. Nitin Banerjee,3,Psychiatrist,650,Mumbai,"Care Hospital, Mumbai",4.0
+DOC0534,Dr. Rohit Verma,15,Neurologist,1000,Chennai,"Medanta The Medicity, Chennai",4.0
+DOC0535,Dr. Aditya Nair,16,Psychiatrist,950,Kolkata,"KIMS Hospital, Kolkata",3.9
+DOC0536,Dr. Nitin Kulkarni,17,ENT Specialist,800,Hyderabad,"AIMS, Hyderabad",4.7
+DOC0537,Dr. Abhishek Nair,6,Ophthalmologist,900,Pune,"Yashoda Hospital, Pune",5.0
+DOC0538,Dr. Aditya Sharma,19,Orthopedic Surgeon,1100,Hyderabad,"Yashoda Hospital, Hyderabad",4.7
+DOC0539,Dr. Aisha Kapoor,15,ENT Specialist,700,Chennai,"KIMS Hospital, Chennai",4.0
+DOC0540,Dr. Rohit Gupta,14,Pediatrician,550,Pune,"Apollo Hospital, Pune",4.3
+DOC0541,Dr. Aisha Rao,11,Pediatrician,650,Mumbai,"Yashoda Hospital, Mumbai",4.4
+DOC0542,Dr. Pranav Singh,5,Pediatrician,550,Mumbai,"Global Hospital, Mumbai",4.8
+DOC0543,Dr. Sanjay Pillai,25,Dermatologist,1250,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.4
+DOC0544,Dr. Abhishek Deshmukh,13,Ophthalmologist,1000,Delhi,"Yashoda Hospital, Delhi",4.1
+DOC0545,Dr. Suresh Mehta,24,Gynecologist,1150,Hyderabad,"Global Hospital, Hyderabad",4.4
+DOC0546,Dr. Aisha Sharma,10,Oncologist,950,Ahmedabad,"Manipal Hospital, Ahmedabad",4.9
+DOC0547,Dr. Meena Kapoor,18,Cardiologist,1050,Pune,"Fortis Healthcare, Pune",4.3
+DOC0548,Dr. Aisha Nair,4,Psychiatrist,750,Ahmedabad,"KIMS Hospital, Ahmedabad",3.9
+DOC0549,Dr. Vikas Patel,23,Psychiatrist,1050,Delhi,"Max Super Speciality Hospital, Delhi",5.0
+DOC0550,Dr. Manoj Kulkarni,3,Oncologist,650,Hyderabad,"Manipal Hospital, Hyderabad",4.8
+DOC0551,Dr. Neha Kumar,16,Psychiatrist,1100,Delhi,"Max Super Speciality Hospital, Delhi",3.8
+DOC0552,Dr. Sandeep Mehta,5,Dermatologist,750,Mumbai,"Max Super Speciality Hospital, Mumbai",4.8
+DOC0553,Dr. Aisha Gupta,17,Neurologist,1100,Pune,"KIMS Hospital, Pune",4.6
+DOC0554,Dr. Neha Mehta,4,Ophthalmologist,650,Mumbai,"Global Hospital, Mumbai",3.9
+DOC0555,Dr. Alok Bhasin,5,ENT Specialist,450,Kolkata,"AIMS, Kolkata",3.9
+DOC0556,Dr. Abhishek Nair,8,Neurologist,900,Pune,"Care Hospital, Pune",4.8
+DOC0557,Dr. Arjun Pillai,13,Psychiatrist,900,Bangalore,"Care Hospital, Bangalore",4.8
+DOC0558,Dr. Nitin Kulkarni,21,Oncologist,1100,Chennai,"Yashoda Hospital, Chennai",4.9
+DOC0559,Dr. Arjun Kulkarni,12,Dermatologist,850,Mumbai,"Global Hospital, Mumbai",4.5
+DOC0560,Dr. Aisha Kulkarni,8,Neurologist,800,Kolkata,"Manipal Hospital, Kolkata",4.3
+DOC0561,Dr. Rahul Deshmukh,12,Pediatrician,600,Hyderabad,"Global Hospital, Hyderabad",4.8
+DOC0562,Dr. Suresh Kumar,14,Oncologist,850,Ahmedabad,"AIMS, Ahmedabad",3.9
+DOC0563,Dr. Rohit Gupta,19,Dermatologist,1000,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.2
+DOC0564,Dr. Rohit Joshi,9,Neurologist,750,Hyderabad,"Yashoda Hospital, Hyderabad",4.4
+DOC0565,Dr. Priya Kapoor,22,ENT Specialist,800,Kolkata,"Yashoda Hospital, Kolkata",5.0
+DOC0566,Dr. Rajesh Sharma,23,Orthopedic Surgeon,1100,Pune,"Medanta The Medicity, Pune",4.8
+DOC0567,Dr. Ravi Mehta,33,Gastroenterologist,1400,Kolkata,"Medanta The Medicity, Kolkata",4.4
+DOC0568,Dr. Anil Reddy,8,Neurologist,800,Hyderabad,"Medanta The Medicity, Hyderabad",4.7
+DOC0569,Dr. Rahul Gupta,7,Cardiologist,750,Pune,"Global Hospital, Pune",4.1
+DOC0570,Dr. Aditya Kulkarni,19,Psychiatrist,1100,Bangalore,"Yashoda Hospital, Bangalore",4.3
+DOC0571,Dr. Vikas Bhasin,21,Pediatrician,900,Delhi,"Care Hospital, Delhi",4.2
+DOC0572,Dr. Arjun Joshi,13,Psychiatrist,900,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.0
+DOC0573,Dr. Sneha Singh,33,Gynecologist,1250,Hyderabad,"KIMS Hospital, Hyderabad",4.1
+DOC0574,Dr. Vikram Mishra,17,Cardiologist,1000,Kolkata,"Care Hospital, Kolkata",4.4
+DOC0575,Dr. Sunita Verma,5,Oncologist,850,Delhi,"AIMS, Delhi",4.6
+DOC0576,Dr. Vikram Rao,14,Ophthalmologist,1000,Kolkata,"Global Hospital, Kolkata",4.6
+DOC0577,Dr. Gaurav Gupta,19,Ophthalmologist,1000,Pune,"Yashoda Hospital, Pune",4.8
+DOC0578,Dr. Anjali Pillai,33,General Physician,950,Bangalore,"KIMS Hospital, Bangalore",4.0
+DOC0579,Dr. Amit Deshmukh,20,Orthopedic Surgeon,1100,Bangalore,"Max Super Speciality Hospital, Bangalore",4.2
+DOC0580,Dr. Sandeep Kumar,17,Ophthalmologist,1050,Delhi,"KIMS Hospital, Delhi",4.6
+DOC0581,Dr. Kiran Patel,13,Oncologist,1000,Mumbai,"Manipal Hospital, Mumbai",3.9
+DOC0582,Dr. Sneha Bhasin,13,Pediatrician,550,Bangalore,"Apollo Hospital, Bangalore",4.0
+DOC0583,Dr. Pranav Reddy,28,General Physician,850,Chennai,"Fortis Healthcare, Chennai",4.1
+DOC0584,Dr. Meena Pillai,33,Pediatrician,1000,Pune,"Global Hospital, Pune",4.0
+DOC0585,Dr. Sneha Reddy,35,Neurologist,1400,Kolkata,"KIMS Hospital, Kolkata",4.5
+DOC0586,Dr. Amit Joshi,27,Ophthalmologist,1200,Delhi,"Apollo Hospital, Delhi",4.0
+DOC0587,Dr. Nitin Deshmukh,29,Pediatrician,850,Bangalore,"KIMS Hospital, Bangalore",4.9
+DOC0588,Dr. Meena Verma,35,Dermatologist,1350,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.9
+DOC0589,Dr. Aisha Sharma,30,Psychiatrist,1400,Kolkata,"Apollo Hospital, Kolkata",4.6
+DOC0590,Dr. Neha Joshi,33,Ophthalmologist,1350,Delhi,"Care Hospital, Delhi",4.0
+DOC0591,Dr. Kiran Joshi,8,Neurologist,900,Chennai,"Manipal Hospital, Chennai",3.8
+DOC0592,Dr. Alok Sharma,10,Psychiatrist,850,Pune,"Manipal Hospital, Pune",4.6
+DOC0593,Dr. Priya Banerjee,26,Dermatologist,1200,Pune,"Global Hospital, Pune",4.1
+DOC0594,Dr. Nitin Kulkarni,30,General Physician,1050,Chennai,"Care Hospital, Chennai",4.7
+DOC0595,Dr. Neha Kulkarni,33,Pediatrician,1050,Ahmedabad,"Medanta The Medicity, Ahmedabad",5.0
+DOC0596,Dr. Sneha Mishra,28,ENT Specialist,900,Delhi,"Manipal Hospital, Delhi",4.3
+DOC0597,Dr. Sandeep Reddy,9,Orthopedic Surgeon,900,Kolkata,"AIMS, Kolkata",4.5
+DOC0598,Dr. Rohit Verma,13,Ophthalmologist,850,Delhi,"Max Super Speciality Hospital, Delhi",4.4
+DOC0599,Dr. Meena Banerjee,8,Dermatologist,850,Hyderabad,"Yashoda Hospital, Hyderabad",3.9
+DOC0600,Dr. Aditya Das,28,General Physician,950,Mumbai,"Max Super Speciality Hospital, Mumbai",4.6
+DOC0601,Dr. Sunita Sharma,15,Oncologist,1050,Hyderabad,"Apollo Hospital, Hyderabad",4.7
+DOC0602,Dr. Pooja Deshmukh,17,General Physician,700,Mumbai,"Yashoda Hospital, Mumbai",4.1
+DOC0603,Dr. Arjun Reddy,8,Neurologist,900,Kolkata,"Care Hospital, Kolkata",4.3
+DOC0604,Dr. Suresh Deshmukh,3,ENT Specialist,350,Delhi,"AIMS, Delhi",4.1
+DOC0605,Dr. Gaurav Kulkarni,25,Gynecologist,1250,Hyderabad,"Global Hospital, Hyderabad",5.0
+DOC0606,Dr. Sunita Das,3,Neurologist,700,Pune,"AIMS, Pune",3.9
+DOC0607,Dr. Amit Deshmukh,21,Gynecologist,1050,Chennai,"AIMS, Chennai",4.8
+DOC0608,Dr. Sneha Rao,31,Ophthalmologist,1400,Hyderabad,"Yashoda Hospital, Hyderabad",5.0
+DOC0609,Dr. Sunita Choudhury,4,Gastroenterologist,650,Chennai,"Fortis Healthcare, Chennai",4.3
+DOC0610,Dr. Abhishek Joshi,17,Gynecologist,1100,Kolkata,"AIMS, Kolkata",4.4
+DOC0611,Dr. Sandeep Rao,18,Neurologist,950,Pune,"Yashoda Hospital, Pune",3.9
+DOC0612,Dr. Pranav Reddy,33,Gynecologist,1350,Hyderabad,"Global Hospital, Hyderabad",4.1
+DOC0613,Dr. Alok Patel,34,ENT Specialist,1000,Hyderabad,"Manipal Hospital, Hyderabad",4.8
+DOC0614,Dr. Suresh Joshi,15,Orthopedic Surgeon,1050,Bangalore,"Fortis Healthcare, Bangalore",3.9
+DOC0615,Dr. Amit Pillai,3,Psychiatrist,650,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.5
+DOC0616,Dr. Kiran Bhasin,20,Gastroenterologist,1100,Chennai,"Care Hospital, Chennai",4.1
+DOC0617,Dr. Sneha Singh,6,Psychiatrist,900,Ahmedabad,"AIMS, Ahmedabad",3.8
+DOC0618,Dr. Anjali Das,14,Gastroenterologist,850,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.6
+DOC0619,Dr. Arjun Patel,27,General Physician,850,Kolkata,"Yashoda Hospital, Kolkata",4.5
+DOC0620,Dr. Vikram Reddy,19,Orthopedic Surgeon,1050,Ahmedabad,"Global Hospital, Ahmedabad",4.2
+DOC0621,Dr. Rajesh Pillai,30,Orthopedic Surgeon,1400,Kolkata,"Yashoda Hospital, Kolkata",4.8
+DOC0622,Dr. Vikram Choudhury,14,General Physician,600,Hyderabad,"Fortis Healthcare, Hyderabad",4.7
+DOC0623,Dr. Abhishek Joshi,30,Ophthalmologist,1300,Bangalore,"Max Super Speciality Hospital, Bangalore",4.4
+DOC0624,Dr. Arjun Reddy,29,Gastroenterologist,1200,Kolkata,"KIMS Hospital, Kolkata",4.2
+DOC0625,Dr. Aisha Bhasin,6,Ophthalmologist,750,Bangalore,"Apollo Hospital, Bangalore",4.1
+DOC0626,Dr. Vikram Pillai,9,Gastroenterologist,850,Chennai,"Yashoda Hospital, Chennai",4.2
+DOC0627,Dr. Aisha Rao,25,Cardiologist,1300,Delhi,"Yashoda Hospital, Delhi",4.8
+DOC0628,Dr. Meena Patel,14,Neurologist,950,Kolkata,"AIMS, Kolkata",4.4
+DOC0629,Dr. Alok Choudhury,8,Ophthalmologist,850,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.8
+DOC0630,Dr. Rahul Mehta,29,Oncologist,1300,Delhi,"Fortis Healthcare, Delhi",4.0
+DOC0631,Dr. Vijay Mehta,23,Oncologist,1150,Chennai,"Global Hospital, Chennai",4.6
+DOC0632,Dr. Vikram Choudhury,26,ENT Specialist,1000,Pune,"Max Super Speciality Hospital, Pune",4.0
+DOC0633,Dr. Arjun Singh,18,Oncologist,1050,Delhi,"Manipal Hospital, Delhi",4.0
+DOC0634,Dr. Anil Kumar,7,Gastroenterologist,750,Mumbai,"Care Hospital, Mumbai",4.4
+DOC0635,Dr. Amit Kumar,19,General Physician,700,Delhi,"Care Hospital, Delhi",4.2
+DOC0636,Dr. Vijay Nair,31,Oncologist,1300,Bangalore,"AIMS, Bangalore",4.8
+DOC0637,Dr. Arjun Verma,25,Gynecologist,1300,Ahmedabad,"AIMS, Ahmedabad",4.9
+DOC0638,Dr. Aisha Choudhury,11,ENT Specialist,600,Ahmedabad,"Global Hospital, Ahmedabad",4.3
+DOC0639,Dr. Rahul Kulkarni,22,Gynecologist,1200,Hyderabad,"Fortis Healthcare, Hyderabad",4.3
+DOC0640,Dr. Anjali Banerjee,19,Pediatrician,750,Mumbai,"Apollo Hospital, Mumbai",4.4
+DOC0641,Dr. Manoj Singh,25,Neurologist,1300,Mumbai,"KIMS Hospital, Mumbai",4.9
+DOC0642,Dr. Kiran Nair,3,Ophthalmologist,750,Hyderabad,"Apollo Hospital, Hyderabad",4.5
+DOC0643,Dr. Suresh Banerjee,30,Ophthalmologist,1300,Bangalore,"Care Hospital, Bangalore",4.8
+DOC0644,Dr. Vijay Rao,8,Ophthalmologist,800,Chennai,"Medanta The Medicity, Chennai",4.6
+DOC0645,Dr. Aisha Rao,29,Orthopedic Surgeon,1150,Bangalore,"Max Super Speciality Hospital, Bangalore",4.1
+DOC0646,Dr. Rahul Choudhury,31,Neurologist,1400,Hyderabad,"Yashoda Hospital, Hyderabad",3.8
+DOC0647,Dr. Aditya Kulkarni,4,Pediatrician,350,Chennai,"Medanta The Medicity, Chennai",4.0
+DOC0648,Dr. Sunita Sharma,17,Dermatologist,1000,Mumbai,"KIMS Hospital, Mumbai",4.1
+DOC0649,Dr. Neha Nair,34,Gynecologist,1400,Mumbai,"Yashoda Hospital, Mumbai",3.9
+DOC0650,Dr. Manoj Singh,6,Neurologist,900,Delhi,"AIMS, Delhi",4.4
+DOC0651,Dr. Suresh Rao,27,Cardiologist,1150,Hyderabad,"Care Hospital, Hyderabad",4.7
+DOC0652,Dr. Sunita Joshi,5,Orthopedic Surgeon,900,Delhi,"AIMS, Delhi",4.6
+DOC0653,Dr. Suresh Pillai,27,Oncologist,1250,Kolkata,"Max Super Speciality Hospital, Kolkata",4.6
+DOC0654,Dr. Aditya Kulkarni,10,Neurologist,1000,Chennai,"Manipal Hospital, Chennai",4.2
+DOC0655,Dr. Aditya Patel,10,Orthopedic Surgeon,1000,Kolkata,"Apollo Hospital, Kolkata",4.0
+DOC0656,Dr. Vikram Bhasin,10,Ophthalmologist,900,Mumbai,"Apollo Hospital, Mumbai",4.5
+DOC0657,Dr. Sandeep Pillai,12,Gynecologist,850,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.4
+DOC0658,Dr. Rohit Kapoor,24,Oncologist,1050,Mumbai,"Yashoda Hospital, Mumbai",4.6
+DOC0659,Dr. Sandeep Kulkarni,9,Pediatrician,600,Hyderabad,"Yashoda Hospital, Hyderabad",5.0
+DOC0660,Dr. Abhishek Mishra,31,ENT Specialist,1000,Mumbai,"Care Hospital, Mumbai",4.2
+DOC0661,Dr. Ravi Rao,5,Gastroenterologist,900,Chennai,"AIMS, Chennai",4.6
+DOC0662,Dr. Suresh Bhasin,14,Psychiatrist,950,Kolkata,"KIMS Hospital, Kolkata",4.1
+DOC0663,Dr. Gaurav Kapoor,13,Dermatologist,900,Ahmedabad,"Medanta The Medicity, Ahmedabad",4.8
+DOC0664,Dr. Aisha Mishra,32,Cardiologist,1400,Bangalore,"Apollo Hospital, Bangalore",4.5
+DOC0665,Dr. Anjali Kapoor,18,Gynecologist,950,Pune,"Manipal Hospital, Pune",4.4
+DOC0666,Dr. Kiran Kulkarni,12,General Physician,650,Kolkata,"Care Hospital, Kolkata",4.6
+DOC0667,Dr. Anil Kumar,7,Cardiologist,800,Bangalore,"Apollo Hospital, Bangalore",4.0
+DOC0668,Dr. Kiran Patel,9,Cardiologist,900,Ahmedabad,"AIMS, Ahmedabad",4.5
+DOC0669,Dr. Sneha Rao,6,Gynecologist,800,Delhi,"Apollo Hospital, Delhi",4.9
+DOC0670,Dr. Suresh Pillai,8,Gastroenterologist,750,Kolkata,"AIMS, Kolkata",4.7
+DOC0671,Dr. Vikas Banerjee,26,ENT Specialist,850,Chennai,"AIMS, Chennai",3.8
+DOC0672,Dr. Amit Nair,7,Orthopedic Surgeon,750,Delhi,"Manipal Hospital, Delhi",4.4
+DOC0673,Dr. Suresh Patel,18,General Physician,700,Pune,"Fortis Healthcare, Pune",4.7
+DOC0674,Dr. Sneha Mishra,32,ENT Specialist,1100,Delhi,"Max Super Speciality Hospital, Delhi",4.8
+DOC0675,Dr. Aisha Das,35,Gynecologist,1400,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.9
+DOC0676,Dr. Aisha Mehta,26,Ophthalmologist,1300,Kolkata,"Global Hospital, Kolkata",4.1
+DOC0677,Dr. Aisha Patel,27,Psychiatrist,1250,Kolkata,"KIMS Hospital, Kolkata",4.3
+DOC0678,Dr. Deepika Sharma,5,Neurologist,750,Bangalore,"Medanta The Medicity, Bangalore",3.8
+DOC0679,Dr. Vijay Patel,23,Cardiologist,1150,Bangalore,"Fortis Healthcare, Bangalore",3.8
+DOC0680,Dr. Anjali Singh,11,Neurologist,950,Hyderabad,"Manipal Hospital, Hyderabad",4.1
+DOC0681,Dr. Sanjay Gupta,28,General Physician,900,Delhi,"Yashoda Hospital, Delhi",4.8
+DOC0682,Dr. Rajesh Pillai,9,General Physician,550,Mumbai,"Global Hospital, Mumbai",4.3
+DOC0683,Dr. Manoj Verma,24,Gynecologist,1200,Pune,"Fortis Healthcare, Pune",4.8
+DOC0684,Dr. Vijay Kapoor,3,Oncologist,800,Mumbai,"Medanta The Medicity, Mumbai",4.4
+DOC0685,Dr. Priya Kulkarni,12,Gynecologist,900,Bangalore,"Apollo Hospital, Bangalore",4.6
+DOC0686,Dr. Deepika Choudhury,35,Dermatologist,1400,Pune,"Medanta The Medicity, Pune",4.7
+DOC0687,Dr. Ravi Singh,24,Dermatologist,1200,Mumbai,"AIMS, Mumbai",4.3
+DOC0688,Dr. Amit Das,35,Ophthalmologist,1400,Bangalore,"KIMS Hospital, Bangalore",4.5
+DOC0689,Dr. Kiran Das,15,Psychiatrist,1000,Hyderabad,"Fortis Healthcare, Hyderabad",4.1
+DOC0690,Dr. Neha Mehta,8,Dermatologist,900,Pune,"Yashoda Hospital, Pune",4.2
+DOC0691,Dr. Priya Mishra,4,Neurologist,700,Kolkata,"Global Hospital, Kolkata",4.8
+DOC0692,Dr. Abhishek Choudhury,12,Gastroenterologist,850,Hyderabad,"Manipal Hospital, Hyderabad",4.6
+DOC0693,Dr. Ravi Gupta,10,ENT Specialist,550,Hyderabad,"Global Hospital, Hyderabad",4.9
+DOC0694,Dr. Nitin Nair,3,Gynecologist,650,Chennai,"KIMS Hospital, Chennai",4.4
+DOC0695,Dr. Priya Patel,16,Orthopedic Surgeon,1050,Ahmedabad,"Global Hospital, Ahmedabad",4.7
+DOC0696,Dr. Ravi Sharma,27,General Physician,850,Chennai,"Max Super Speciality Hospital, Chennai",3.9
+DOC0697,Dr. Suresh Kapoor,20,Cardiologist,1200,Mumbai,"Fortis Healthcare, Mumbai",4.3
+DOC0698,Dr. Vikram Mishra,9,Cardiologist,850,Pune,"Manipal Hospital, Pune",5.0
+DOC0699,Dr. Pooja Kumar,23,Gastroenterologist,1050,Bangalore,"Manipal Hospital, Bangalore",4.4
+DOC0700,Dr. Sunita Kulkarni,4,Cardiologist,700,Chennai,"Yashoda Hospital, Chennai",4.4
+DOC0701,Dr. Alok Reddy,4,Gynecologist,750,Kolkata,"Medanta The Medicity, Kolkata",4.1
+DOC0702,Dr. Pooja Rao,6,Oncologist,850,Pune,"Apollo Hospital, Pune",4.9
+DOC0703,Dr. Vikram Joshi,12,Gynecologist,1000,Bangalore,"Fortis Healthcare, Bangalore",4.7
+DOC0704,Dr. Pooja Kapoor,17,Ophthalmologist,1000,Bangalore,"Care Hospital, Bangalore",5.0
+DOC0705,Dr. Pranav Kapoor,24,Gastroenterologist,1100,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.5
+DOC0706,Dr. Rohit Patel,11,Neurologist,900,Pune,"Max Super Speciality Hospital, Pune",4.6
+DOC0707,Dr. Sneha Reddy,23,Dermatologist,1050,Bangalore,"Yashoda Hospital, Bangalore",4.8
+DOC0708,Dr. Ravi Sharma,23,Ophthalmologist,1200,Chennai,"KIMS Hospital, Chennai",4.7
+DOC0709,Dr. Gaurav Rao,12,Orthopedic Surgeon,850,Bangalore,"Max Super Speciality Hospital, Bangalore",3.8
+DOC0710,Dr. Meena Kapoor,20,General Physician,800,Hyderabad,"Manipal Hospital, Hyderabad",4.6
+DOC0711,Dr. Anjali Gupta,33,Pediatrician,1100,Kolkata,"Max Super Speciality Hospital, Kolkata",4.8
+DOC0712,Dr. Kiran Pillai,11,Pediatrician,600,Hyderabad,"Apollo Hospital, Hyderabad",4.3
+DOC0713,Dr. Arjun Rao,29,Orthopedic Surgeon,1200,Hyderabad,"Fortis Healthcare, Hyderabad",4.0
+DOC0714,Dr. Sunita Kapoor,34,ENT Specialist,1050,Ahmedabad,"Manipal Hospital, Ahmedabad",4.3
+DOC0715,Dr. Manoj Verma,27,ENT Specialist,950,Pune,"Global Hospital, Pune",4.9
+DOC0716,Dr. Sneha Kapoor,5,Psychiatrist,750,Ahmedabad,"KIMS Hospital, Ahmedabad",4.8
+DOC0717,Dr. Aditya Joshi,28,ENT Specialist,850,Pune,"AIMS, Pune",4.7
+DOC0718,Dr. Aditya Patel,21,Gastroenterologist,1200,Chennai,"Medanta The Medicity, Chennai",4.4
+DOC0719,Dr. Neha Nair,6,ENT Specialist,500,Ahmedabad,"KIMS Hospital, Ahmedabad",3.9
+DOC0720,Dr. Pooja Kumar,14,General Physician,600,Pune,"Care Hospital, Pune",4.2
+DOC0721,Dr. Arjun Reddy,32,General Physician,1000,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.1
+DOC0722,Dr. Sandeep Reddy,10,Dermatologist,850,Ahmedabad,"Yashoda Hospital, Ahmedabad",3.9
+DOC0723,Dr. Sandeep Das,35,General Physician,1100,Pune,"AIMS, Pune",4.3
+DOC0724,Dr. Manoj Reddy,24,General Physician,800,Bangalore,"Max Super Speciality Hospital, Bangalore",4.0
+DOC0725,Dr. Sandeep Verma,29,Neurologist,1250,Ahmedabad,"Medanta The Medicity, Ahmedabad",4.6
+DOC0726,Dr. Anil Singh,15,Cardiologist,1050,Mumbai,"KIMS Hospital, Mumbai",4.4
+DOC0727,Dr. Kiran Kulkarni,3,General Physician,500,Hyderabad,"Manipal Hospital, Hyderabad",4.5
+DOC0728,Dr. Kiran Choudhury,29,Gastroenterologist,1150,Mumbai,"Manipal Hospital, Mumbai",4.9
+DOC0729,Dr. Vikram Kapoor,16,Cardiologist,1000,Bangalore,"Apollo Hospital, Bangalore",4.6
+DOC0730,Dr. Aditya Singh,5,Oncologist,850,Kolkata,"Fortis Healthcare, Kolkata",3.9
+DOC0731,Dr. Neha Reddy,13,Oncologist,950,Bangalore,"KIMS Hospital, Bangalore",4.7
+DOC0732,Dr. Anjali Verma,8,Neurologist,850,Kolkata,"Care Hospital, Kolkata",4.8
+DOC0733,Dr. Manoj Banerjee,7,Neurologist,900,Bangalore,"Fortis Healthcare, Bangalore",4.6
+DOC0734,Dr. Vikram Mehta,29,Psychiatrist,1200,Hyderabad,"Global Hospital, Hyderabad",3.9
+DOC0735,Dr. Sneha Deshmukh,8,Gastroenterologist,850,Pune,"Global Hospital, Pune",4.8
+DOC0736,Dr. Vikram Deshmukh,25,Pediatrician,1000,Ahmedabad,"KIMS Hospital, Ahmedabad",4.8
+DOC0737,Dr. Vikas Kapoor,17,ENT Specialist,750,Hyderabad,"Apollo Hospital, Hyderabad",3.9
+DOC0738,Dr. Sunita Kumar,16,General Physician,800,Pune,"Apollo Hospital, Pune",4.2
+DOC0739,Dr. Aisha Patel,3,Oncologist,700,Chennai,"Medanta The Medicity, Chennai",4.7
+DOC0740,Dr. Sanjay Nair,35,Psychiatrist,1450,Mumbai,"Fortis Healthcare, Mumbai",4.6
+DOC0741,Dr. Priya Das,4,Pediatrician,400,Kolkata,"Yashoda Hospital, Kolkata",4.9
+DOC0742,Dr. Kiran Pillai,5,Oncologist,800,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.6
+DOC0743,Dr. Vikas Kulkarni,24,Gastroenterologist,1200,Mumbai,"AIMS, Mumbai",4.2
+DOC0744,Dr. Alok Mehta,4,Orthopedic Surgeon,750,Kolkata,"Fortis Healthcare, Kolkata",5.0
+DOC0745,Dr. Vikram Sharma,24,Ophthalmologist,1100,Pune,"Max Super Speciality Hospital, Pune",4.5
+DOC0746,Dr. Nitin Nair,23,ENT Specialist,750,Chennai,"Care Hospital, Chennai",3.9
+DOC0747,Dr. Vikas Joshi,26,Gastroenterologist,1250,Hyderabad,"AIMS, Hyderabad",4.2
+DOC0748,Dr. Anil Mishra,5,Orthopedic Surgeon,750,Ahmedabad,"AIMS, Ahmedabad",3.8
+DOC0749,Dr. Kiran Deshmukh,12,Orthopedic Surgeon,950,Ahmedabad,"AIMS, Ahmedabad",4.2
+DOC0750,Dr. Priya Singh,9,Psychiatrist,800,Hyderabad,"Apollo Hospital, Hyderabad",4.4
+DOC0751,Dr. Sandeep Deshmukh,10,Cardiologist,950,Mumbai,"Global Hospital, Mumbai",4.8
+DOC0752,Dr. Priya Choudhury,5,Dermatologist,850,Mumbai,"Global Hospital, Mumbai",4.7
+DOC0753,Dr. Rahul Patel,23,Orthopedic Surgeon,1100,Chennai,"Medanta The Medicity, Chennai",4.4
+DOC0754,Dr. Manoj Choudhury,10,Neurologist,900,Bangalore,"Medanta The Medicity, Bangalore",3.9
+DOC0755,Dr. Meena Kulkarni,35,Dermatologist,1400,Kolkata,"AIMS, Kolkata",4.2
+DOC0756,Dr. Ravi Nair,18,Pediatrician,650,Chennai,"Global Hospital, Chennai",4.9
+DOC0757,Dr. Aisha Choudhury,6,Pediatrician,450,Ahmedabad,"Apollo Hospital, Ahmedabad",3.9
+DOC0758,Dr. Aditya Gupta,30,Ophthalmologist,1300,Ahmedabad,"Global Hospital, Ahmedabad",4.2
+DOC0759,Dr. Priya Patel,8,Gastroenterologist,800,Delhi,"KIMS Hospital, Delhi",3.9
+DOC0760,Dr. Sanjay Choudhury,33,Orthopedic Surgeon,1300,Bangalore,"Global Hospital, Bangalore",4.1
+DOC0761,Dr. Anjali Das,14,ENT Specialist,650,Kolkata,"KIMS Hospital, Kolkata",4.4
+DOC0762,Dr. Amit Pillai,10,Gynecologist,1000,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.1
+DOC0763,Dr. Anjali Kapoor,11,Psychiatrist,850,Pune,"Fortis Healthcare, Pune",4.2
+DOC0764,Dr. Rahul Gupta,22,Psychiatrist,1200,Pune,"Global Hospital, Pune",4.3
+DOC0765,Dr. Meena Joshi,13,Gastroenterologist,1000,Delhi,"Yashoda Hospital, Delhi",4.0
+DOC0766,Dr. Sandeep Bhasin,30,Ophthalmologist,1350,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.6
+DOC0767,Dr. Amit Bhasin,34,Dermatologist,1400,Kolkata,"AIMS, Kolkata",3.9
+DOC0768,Dr. Sunita Reddy,22,Ophthalmologist,1050,Delhi,"Global Hospital, Delhi",4.7
+DOC0769,Dr. Deepika Mehta,34,Oncologist,1250,Delhi,"Manipal Hospital, Delhi",4.8
+DOC0770,Dr. Vikas Bhasin,3,Pediatrician,400,Ahmedabad,"AIMS, Ahmedabad",4.1
+DOC0771,Dr. Meena Bhasin,31,Orthopedic Surgeon,1300,Kolkata,"Medanta The Medicity, Kolkata",4.5
+DOC0772,Dr. Pranav Nair,30,ENT Specialist,1050,Delhi,"Global Hospital, Delhi",3.8
+DOC0773,Dr. Pooja Das,11,Neurologist,850,Kolkata,"AIMS, Kolkata",5.0
+DOC0774,Dr. Arjun Kulkarni,25,Dermatologist,1250,Mumbai,"Manipal Hospital, Mumbai",4.3
+DOC0775,Dr. Sneha Das,23,ENT Specialist,900,Pune,"Care Hospital, Pune",4.3
+DOC0776,Dr. Suresh Reddy,33,Pediatrician,1000,Pune,"Yashoda Hospital, Pune",4.8
+DOC0777,Dr. Ravi Nair,11,Pediatrician,550,Delhi,"Apollo Hospital, Delhi",4.0
+DOC0778,Dr. Vikas Pillai,30,Pediatrician,950,Bangalore,"Care Hospital, Bangalore",4.8
+DOC0779,Dr. Vikas Kapoor,30,General Physician,1000,Ahmedabad,"AIMS, Ahmedabad",4.3
+DOC0780,Dr. Gaurav Choudhury,27,Gynecologist,1200,Bangalore,"Care Hospital, Bangalore",4.5
+DOC0781,Dr. Sneha Pillai,18,ENT Specialist,750,Pune,"AIMS, Pune",4.5
+DOC0782,Dr. Aditya Verma,33,ENT Specialist,1050,Delhi,"Global Hospital, Delhi",4.4
+DOC0783,Dr. Sandeep Gupta,12,ENT Specialist,650,Ahmedabad,"AIMS, Ahmedabad",3.9
+DOC0784,Dr. Vikas Kapoor,8,Orthopedic Surgeon,900,Delhi,"AIMS, Delhi",4.8
+DOC0785,Dr. Sanjay Kapoor,6,Gynecologist,750,Ahmedabad,"KIMS Hospital, Ahmedabad",4.4
+DOC0786,Dr. Kiran Bhasin,24,Ophthalmologist,1150,Chennai,"Medanta The Medicity, Chennai",4.0
+DOC0787,Dr. Sandeep Kapoor,22,ENT Specialist,850,Mumbai,"KIMS Hospital, Mumbai",4.5
+DOC0788,Dr. Sneha Verma,21,ENT Specialist,750,Chennai,"KIMS Hospital, Chennai",3.9
+DOC0789,Dr. Pooja Gupta,20,Neurologist,1100,Chennai,"Medanta The Medicity, Chennai",4.8
+DOC0790,Dr. Arjun Kumar,14,General Physician,600,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.8
+DOC0791,Dr. Vikram Joshi,34,Pediatrician,950,Kolkata,"Fortis Healthcare, Kolkata",5.0
+DOC0792,Dr. Meena Singh,34,Ophthalmologist,1400,Hyderabad,"KIMS Hospital, Hyderabad",4.7
+DOC0793,Dr. Rajesh Patel,25,Cardiologist,1250,Delhi,"Apollo Hospital, Delhi",4.0
+DOC0794,Dr. Deepika Pillai,22,Gastroenterologist,1100,Pune,"Care Hospital, Pune",4.4
+DOC0795,Dr. Ravi Deshmukh,30,Cardiologist,1350,Ahmedabad,"Care Hospital, Ahmedabad",4.6
+DOC0796,Dr. Pooja Verma,9,Psychiatrist,850,Pune,"Global Hospital, Pune",4.9
+DOC0797,Dr. Nitin Rao,24,Neurologist,1150,Delhi,"Medanta The Medicity, Delhi",4.6
+DOC0798,Dr. Deepika Choudhury,18,ENT Specialist,700,Kolkata,"Max Super Speciality Hospital, Kolkata",4.2
+DOC0799,Dr. Arjun Sharma,7,Cardiologist,900,Delhi,"AIMS, Delhi",3.9
+DOC0800,Dr. Sunita Mishra,17,ENT Specialist,750,Chennai,"Manipal Hospital, Chennai",3.8
+DOC0801,Dr. Meena Gupta,6,General Physician,500,Delhi,"Fortis Healthcare, Delhi",3.9
+DOC0802,Dr. Meena Singh,27,Oncologist,1200,Delhi,"Max Super Speciality Hospital, Delhi",4.1
+DOC0803,Dr. Sunita Gupta,32,Neurologist,1400,Kolkata,"Medanta The Medicity, Kolkata",4.0
+DOC0804,Dr. Amit Rao,6,Ophthalmologist,900,Kolkata,"Apollo Hospital, Kolkata",4.1
+DOC0805,Dr. Gaurav Rao,14,Gastroenterologist,850,Ahmedabad,"Manipal Hospital, Ahmedabad",4.5
+DOC0806,Dr. Rajesh Pillai,9,Pediatrician,600,Hyderabad,"Global Hospital, Hyderabad",4.6
+DOC0807,Dr. Pranav Choudhury,19,Dermatologist,950,Delhi,"Fortis Healthcare, Delhi",4.5
+DOC0808,Dr. Vikram Choudhury,4,Gastroenterologist,700,Mumbai,"Apollo Hospital, Mumbai",4.6
+DOC0809,Dr. Vikram Singh,24,Ophthalmologist,1050,Ahmedabad,"KIMS Hospital, Ahmedabad",4.3
+DOC0810,Dr. Nitin Gupta,17,Cardiologist,1100,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.5
+DOC0811,Dr. Pranav Mishra,24,Oncologist,1150,Pune,"Apollo Hospital, Pune",4.6
+DOC0812,Dr. Rahul Gupta,26,Psychiatrist,1250,Delhi,"KIMS Hospital, Delhi",4.7
+DOC0813,Dr. Sanjay Patel,14,Psychiatrist,850,Pune,"Manipal Hospital, Pune",4.2
+DOC0814,Dr. Deepika Kumar,25,Gastroenterologist,1150,Ahmedabad,"Manipal Hospital, Ahmedabad",4.0
+DOC0815,Dr. Suresh Sharma,18,Gastroenterologist,1100,Delhi,"AIMS, Delhi",4.6
+DOC0816,Dr. Kiran Kulkarni,31,Cardiologist,1250,Kolkata,"Apollo Hospital, Kolkata",4.2
+DOC0817,Dr. Alok Verma,28,Dermatologist,1200,Ahmedabad,"AIMS, Ahmedabad",4.0
+DOC0818,Dr. Sneha Joshi,7,Cardiologist,800,Ahmedabad,"Apollo Hospital, Ahmedabad",4.4
+DOC0819,Dr. Pranav Kapoor,5,Orthopedic Surgeon,800,Mumbai,"Max Super Speciality Hospital, Mumbai",4.6
+DOC0820,Dr. Vikas Nair,9,Gastroenterologist,800,Delhi,"Fortis Healthcare, Delhi",3.9
+DOC0821,Dr. Meena Kapoor,17,Dermatologist,1000,Pune,"Yashoda Hospital, Pune",4.8
+DOC0822,Dr. Alok Das,23,Dermatologist,1100,Kolkata,"Manipal Hospital, Kolkata",4.7
+DOC0823,Dr. Sneha Reddy,24,Dermatologist,1050,Chennai,"Max Super Speciality Hospital, Chennai",4.7
+DOC0824,Dr. Rajesh Mishra,13,Gastroenterologist,900,Mumbai,"Max Super Speciality Hospital, Mumbai",3.9
+DOC0825,Dr. Nitin Kapoor,27,Pediatrician,850,Ahmedabad,"Fortis Healthcare, Ahmedabad",3.8
+DOC0826,Dr. Rajesh Gupta,21,Ophthalmologist,1200,Bangalore,"Manipal Hospital, Bangalore",4.0
+DOC0827,Dr. Vikram Deshmukh,31,Ophthalmologist,1300,Bangalore,"Global Hospital, Bangalore",4.6
+DOC0828,Dr. Meena Reddy,34,General Physician,950,Chennai,"Yashoda Hospital, Chennai",4.3
+DOC0829,Dr. Aisha Joshi,15,Dermatologist,950,Kolkata,"AIMS, Kolkata",4.4
+DOC0830,Dr. Sunita Patel,20,Cardiologist,1100,Delhi,"Max Super Speciality Hospital, Delhi",4.6
+DOC0831,Dr. Pranav Pillai,34,Pediatrician,1000,Mumbai,"Apollo Hospital, Mumbai",4.6
+DOC0832,Dr. Sanjay Patel,30,Neurologist,1350,Ahmedabad,"Apollo Hospital, Ahmedabad",3.9
+DOC0833,Dr. Aditya Kulkarni,14,Pediatrician,550,Ahmedabad,"AIMS, Ahmedabad",3.9
+DOC0834,Dr. Vikas Joshi,31,General Physician,1050,Pune,"Manipal Hospital, Pune",4.7
+DOC0835,Dr. Vikas Mehta,17,Dermatologist,1050,Hyderabad,"Fortis Healthcare, Hyderabad",4.1
+DOC0836,Dr. Neha Patel,27,Orthopedic Surgeon,1150,Ahmedabad,"Global Hospital, Ahmedabad",4.4
+DOC0837,Dr. Vikas Banerjee,12,Orthopedic Surgeon,1000,Bangalore,"Care Hospital, Bangalore",4.2
+DOC0838,Dr. Sunita Patel,25,Neurologist,1200,Kolkata,"Max Super Speciality Hospital, Kolkata",3.8
+DOC0839,Dr. Sneha Verma,20,Pediatrician,750,Ahmedabad,"KIMS Hospital, Ahmedabad",4.3
+DOC0840,Dr. Manoj Mehta,17,Neurologist,1000,Bangalore,"Global Hospital, Bangalore",5.0
+DOC0841,Dr. Nitin Joshi,8,Ophthalmologist,900,Hyderabad,"Global Hospital, Hyderabad",4.4
+DOC0842,Dr. Sunita Rao,3,ENT Specialist,500,Hyderabad,"Manipal Hospital, Hyderabad",4.2
+DOC0843,Dr. Sneha Joshi,12,General Physician,550,Pune,"Apollo Hospital, Pune",3.8
+DOC0844,Dr. Kiran Deshmukh,5,Ophthalmologist,900,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.3
+DOC0845,Dr. Vijay Gupta,3,ENT Specialist,500,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.2
+DOC0846,Dr. Vijay Gupta,4,Gastroenterologist,750,Bangalore,"KIMS Hospital, Bangalore",4.8
+DOC0847,Dr. Alok Bhasin,4,Gastroenterologist,800,Bangalore,"Care Hospital, Bangalore",4.0
+DOC0848,Dr. Nitin Mishra,32,ENT Specialist,950,Delhi,"Care Hospital, Delhi",4.9
+DOC0849,Dr. Priya Deshmukh,5,Neurologist,900,Chennai,"Global Hospital, Chennai",4.5
+DOC0850,Dr. Abhishek Patel,8,General Physician,550,Mumbai,"AIMS, Mumbai",4.9
+DOC0851,Dr. Rohit Mishra,6,Dermatologist,900,Kolkata,"KIMS Hospital, Kolkata",4.5
+DOC0852,Dr. Anjali Mishra,14,Oncologist,850,Hyderabad,"Max Super Speciality Hospital, Hyderabad",5.0
+DOC0853,Dr. Vijay Kulkarni,10,Oncologist,1000,Hyderabad,"Manipal Hospital, Hyderabad",4.2
+DOC0854,Dr. Vikas Rao,35,Oncologist,1500,Chennai,"Apollo Hospital, Chennai",3.9
+DOC0855,Dr. Anjali Choudhury,34,Psychiatrist,1250,Ahmedabad,"AIMS, Ahmedabad",4.6
+DOC0856,Dr. Aisha Nair,31,General Physician,1050,Delhi,"Manipal Hospital, Delhi",4.9
+DOC0857,Dr. Sunita Gupta,8,Ophthalmologist,800,Chennai,"Fortis Healthcare, Chennai",3.9
+DOC0858,Dr. Vikram Kumar,12,Gastroenterologist,900,Hyderabad,"AIMS, Hyderabad",4.9
+DOC0859,Dr. Arjun Nair,29,Oncologist,1200,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.3
+DOC0860,Dr. Alok Sharma,21,Orthopedic Surgeon,1050,Mumbai,"Manipal Hospital, Mumbai",4.8
+DOC0861,Dr. Pooja Mehta,29,General Physician,950,Kolkata,"KIMS Hospital, Kolkata",4.5
+DOC0862,Dr. Sandeep Deshmukh,31,Gastroenterologist,1350,Bangalore,"Medanta The Medicity, Bangalore",4.0
+DOC0863,Dr. Vikram Joshi,33,Gynecologist,1350,Mumbai,"Max Super Speciality Hospital, Mumbai",4.2
+DOC0864,Dr. Sunita Reddy,13,ENT Specialist,650,Bangalore,"Max Super Speciality Hospital, Bangalore",4.8
+DOC0865,Dr. Sandeep Singh,13,Orthopedic Surgeon,850,Mumbai,"Yashoda Hospital, Mumbai",4.5
+DOC0866,Dr. Sunita Rao,26,Pediatrician,900,Mumbai,"Yashoda Hospital, Mumbai",5.0
+DOC0867,Dr. Ravi Mishra,31,Psychiatrist,1300,Chennai,"Fortis Healthcare, Chennai",4.9
+DOC0868,Dr. Deepika Pillai,12,Gastroenterologist,950,Bangalore,"Apollo Hospital, Bangalore",5.0
+DOC0869,Dr. Aisha Deshmukh,24,Oncologist,1150,Ahmedabad,"Medanta The Medicity, Ahmedabad",5.0
+DOC0870,Dr. Manoj Bhasin,12,General Physician,700,Kolkata,"Fortis Healthcare, Kolkata",4.7
+DOC0871,Dr. Vikas Verma,11,Oncologist,850,Chennai,"Apollo Hospital, Chennai",4.3
+DOC0872,Dr. Gaurav Joshi,31,Gynecologist,1250,Kolkata,"Apollo Hospital, Kolkata",4.5
+DOC0873,Dr. Suresh Bhasin,17,Neurologist,1000,Mumbai,"Fortis Healthcare, Mumbai",4.4
+DOC0874,Dr. Sunita Gupta,35,Ophthalmologist,1400,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.5
+DOC0875,Dr. Pooja Verma,26,Ophthalmologist,1200,Pune,"Yashoda Hospital, Pune",4.3
+DOC0876,Dr. Arjun Nair,25,Gynecologist,1250,Ahmedabad,"AIMS, Ahmedabad",3.9
+DOC0877,Dr. Alok Choudhury,29,Gastroenterologist,1250,Bangalore,"Care Hospital, Bangalore",4.7
+DOC0878,Dr. Neha Singh,8,Pediatrician,500,Chennai,"KIMS Hospital, Chennai",5.0
+DOC0879,Dr. Pooja Mehta,7,General Physician,600,Delhi,"Apollo Hospital, Delhi",4.3
+DOC0880,Dr. Pranav Rao,29,Pediatrician,1000,Bangalore,"Manipal Hospital, Bangalore",4.0
+DOC0881,Dr. Deepika Nair,34,Cardiologist,1350,Chennai,"KIMS Hospital, Chennai",4.5
+DOC0882,Dr. Sunita Joshi,4,Cardiologist,700,Chennai,"Medanta The Medicity, Chennai",4.9
+DOC0883,Dr. Gaurav Pillai,10,Oncologist,950,Pune,"Max Super Speciality Hospital, Pune",4.4
+DOC0884,Dr. Sandeep Joshi,4,Dermatologist,750,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.5
+DOC0885,Dr. Anjali Bhasin,33,General Physician,1100,Chennai,"KIMS Hospital, Chennai",5.0
+DOC0886,Dr. Gaurav Kumar,26,Psychiatrist,1150,Chennai,"Max Super Speciality Hospital, Chennai",4.5
+DOC0887,Dr. Ravi Mehta,32,ENT Specialist,1000,Kolkata,"Max Super Speciality Hospital, Kolkata",3.9
+DOC0888,Dr. Anjali Banerjee,25,Cardiologist,1250,Chennai,"AIMS, Chennai",4.6
+DOC0889,Dr. Amit Deshmukh,15,Oncologist,1000,Delhi,"Global Hospital, Delhi",4.7
+DOC0890,Dr. Aisha Mehta,23,Oncologist,1150,Chennai,"Yashoda Hospital, Chennai",3.9
+DOC0891,Dr. Sneha Mishra,12,Cardiologist,900,Chennai,"Yashoda Hospital, Chennai",4.7
+DOC0892,Dr. Neha Mehta,13,Dermatologist,900,Bangalore,"AIMS, Bangalore",4.1
+DOC0893,Dr. Suresh Kulkarni,10,Ophthalmologist,1000,Delhi,"Fortis Healthcare, Delhi",4.8
+DOC0894,Dr. Pranav Sharma,33,Gynecologist,1350,Kolkata,"Max Super Speciality Hospital, Kolkata",4.8
+DOC0895,Dr. Vikas Kapoor,24,Pediatrician,850,Mumbai,"Fortis Healthcare, Mumbai",4.1
+DOC0896,Dr. Nitin Singh,17,Neurologist,1000,Hyderabad,"Max Super Speciality Hospital, Hyderabad",5.0
+DOC0897,Dr. Neha Kumar,7,Cardiologist,900,Pune,"Apollo Hospital, Pune",4.0
+DOC0898,Dr. Aditya Deshmukh,6,Gastroenterologist,750,Chennai,"Apollo Hospital, Chennai",3.9
+DOC0899,Dr. Rohit Sharma,9,Dermatologist,800,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.6
+DOC0900,Dr. Arjun Gupta,12,ENT Specialist,650,Kolkata,"Yashoda Hospital, Kolkata",4.0
+DOC0901,Dr. Pooja Kapoor,18,Psychiatrist,950,Delhi,"Global Hospital, Delhi",4.7
+DOC0902,Dr. Pooja Patel,15,Neurologist,1000,Mumbai,"Fortis Healthcare, Mumbai",4.9
+DOC0903,Dr. Pranav Deshmukh,33,Gynecologist,1300,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.0
+DOC0904,Dr. Anjali Das,30,Orthopedic Surgeon,1300,Pune,"Fortis Healthcare, Pune",4.7
+DOC0905,Dr. Priya Kumar,32,Dermatologist,1300,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.6
+DOC0906,Dr. Aisha Verma,8,Gynecologist,900,Delhi,"Care Hospital, Delhi",4.1
+DOC0907,Dr. Meena Nair,31,Orthopedic Surgeon,1400,Chennai,"Care Hospital, Chennai",4.0
+DOC0908,Dr. Amit Pillai,26,Pediatrician,850,Ahmedabad,"Fortis Healthcare, Ahmedabad",4.3
+DOC0909,Dr. Pooja Gupta,10,Pediatrician,700,Pune,"Global Hospital, Pune",5.0
+DOC0910,Dr. Alok Reddy,7,Gynecologist,800,Kolkata,"Manipal Hospital, Kolkata",4.5
+DOC0911,Dr. Deepika Kumar,17,Ophthalmologist,1100,Chennai,"Global Hospital, Chennai",4.5
+DOC0912,Dr. Manoj Das,25,Gastroenterologist,1300,Ahmedabad,"AIMS, Ahmedabad",4.1
+DOC0913,Dr. Manoj Choudhury,9,Dermatologist,850,Ahmedabad,"KIMS Hospital, Ahmedabad",4.1
+DOC0914,Dr. Ravi Sharma,9,ENT Specialist,450,Delhi,"KIMS Hospital, Delhi",4.6
+DOC0915,Dr. Rajesh Das,23,Pediatrician,850,Delhi,"Fortis Healthcare, Delhi",4.6
+DOC0916,Dr. Pooja Pillai,32,Orthopedic Surgeon,1350,Ahmedabad,"KIMS Hospital, Ahmedabad",4.4
+DOC0917,Dr. Aisha Mehta,4,Cardiologist,800,Delhi,"Care Hospital, Delhi",4.3
+DOC0918,Dr. Nitin Das,31,Gastroenterologist,1250,Mumbai,"Max Super Speciality Hospital, Mumbai",4.5
+DOC0919,Dr. Nitin Nair,13,Gastroenterologist,1000,Bangalore,"Medanta The Medicity, Bangalore",4.7
+DOC0920,Dr. Kiran Kumar,34,Oncologist,1400,Ahmedabad,"AIMS, Ahmedabad",4.8
+DOC0921,Dr. Pooja Verma,28,Neurologist,1300,Pune,"Global Hospital, Pune",4.6
+DOC0922,Dr. Manoj Nair,23,Cardiologist,1050,Mumbai,"Max Super Speciality Hospital, Mumbai",4.8
+DOC0923,Dr. Anjali Bhasin,4,Oncologist,750,Pune,"Fortis Healthcare, Pune",4.3
+DOC0924,Dr. Anjali Banerjee,25,Cardiologist,1200,Hyderabad,"Manipal Hospital, Hyderabad",4.6
+DOC0925,Dr. Sneha Gupta,7,Neurologist,750,Kolkata,"Max Super Speciality Hospital, Kolkata",3.8
+DOC0926,Dr. Priya Verma,32,Oncologist,1400,Pune,"Medanta The Medicity, Pune",3.8
+DOC0927,Dr. Kiran Bhasin,4,Gynecologist,800,Pune,"Yashoda Hospital, Pune",4.5
+DOC0928,Dr. Abhishek Pillai,9,ENT Specialist,500,Kolkata,"KIMS Hospital, Kolkata",4.4
+DOC0929,Dr. Manoj Mehta,13,General Physician,650,Kolkata,"Care Hospital, Kolkata",4.0
+DOC0930,Dr. Rahul Gupta,16,Neurologist,1050,Mumbai,"Medanta The Medicity, Mumbai",5.0
+DOC0931,Dr. Deepika Joshi,8,ENT Specialist,450,Kolkata,"Medanta The Medicity, Kolkata",3.9
+DOC0932,Dr. Abhishek Deshmukh,33,Ophthalmologist,1300,Kolkata,"Fortis Healthcare, Kolkata",4.6
+DOC0933,Dr. Sanjay Deshmukh,22,Ophthalmologist,1150,Hyderabad,"Care Hospital, Hyderabad",4.3
+DOC0934,Dr. Meena Deshmukh,32,Oncologist,1300,Mumbai,"AIMS, Mumbai",4.8
+DOC0935,Dr. Sneha Pillai,16,Oncologist,1100,Chennai,"AIMS, Chennai",4.8
+DOC0936,Dr. Nitin Banerjee,6,Psychiatrist,800,Kolkata,"KIMS Hospital, Kolkata",4.0
+DOC0937,Dr. Ravi Nair,30,Ophthalmologist,1350,Delhi,"Manipal Hospital, Delhi",4.8
+DOC0938,Dr. Vikram Nair,13,Neurologist,900,Pune,"Manipal Hospital, Pune",3.9
+DOC0939,Dr. Suresh Sharma,18,Neurologist,1100,Ahmedabad,"AIMS, Ahmedabad",5.0
+DOC0940,Dr. Neha Verma,15,Pediatrician,750,Bangalore,"Apollo Hospital, Bangalore",4.1
+DOC0941,Dr. Abhishek Rao,14,Oncologist,850,Ahmedabad,"Apollo Hospital, Ahmedabad",3.9
+DOC0942,Dr. Vikas Gupta,23,General Physician,850,Delhi,"Care Hospital, Delhi",4.9
+DOC0943,Dr. Rohit Gupta,28,ENT Specialist,900,Hyderabad,"Fortis Healthcare, Hyderabad",4.5
+DOC0944,Dr. Pooja Kumar,19,Gastroenterologist,950,Hyderabad,"Global Hospital, Hyderabad",3.9
+DOC0945,Dr. Abhishek Mehta,24,General Physician,900,Hyderabad,"Care Hospital, Hyderabad",4.1
+DOC0946,Dr. Anil Reddy,16,Neurologist,1100,Pune,"Medanta The Medicity, Pune",4.8
+DOC0947,Dr. Aditya Pillai,26,ENT Specialist,850,Kolkata,"AIMS, Kolkata",4.3
+DOC0948,Dr. Rohit Joshi,20,Pediatrician,850,Ahmedabad,"Yashoda Hospital, Ahmedabad",4.8
+DOC0949,Dr. Arjun Kapoor,5,ENT Specialist,450,Hyderabad,"Medanta The Medicity, Hyderabad",4.5
+DOC0950,Dr. Sanjay Mishra,10,Psychiatrist,900,Ahmedabad,"Care Hospital, Ahmedabad",3.8
+DOC0951,Dr. Deepika Rao,22,Dermatologist,1100,Chennai,"Manipal Hospital, Chennai",4.8
+DOC0952,Dr. Rajesh Choudhury,23,Oncologist,1200,Mumbai,"Medanta The Medicity, Mumbai",4.8
+DOC0953,Dr. Gaurav Pillai,33,ENT Specialist,1100,Kolkata,"Care Hospital, Kolkata",4.9
+DOC0954,Dr. Gaurav Kumar,13,ENT Specialist,650,Delhi,"Yashoda Hospital, Delhi",4.3
+DOC0955,Dr. Alok Kulkarni,23,Gastroenterologist,1050,Mumbai,"Max Super Speciality Hospital, Mumbai",4.6
+DOC0956,Dr. Abhishek Singh,3,Ophthalmologist,700,Chennai,"Yashoda Hospital, Chennai",4.5
+DOC0957,Dr. Anil Reddy,18,Psychiatrist,1000,Pune,"Yashoda Hospital, Pune",4.3
+DOC0958,Dr. Nitin Singh,19,Pediatrician,750,Chennai,"Manipal Hospital, Chennai",3.9
+DOC0959,Dr. Anjali Reddy,28,Ophthalmologist,1200,Mumbai,"Apollo Hospital, Mumbai",4.9
+DOC0960,Dr. Rahul Kapoor,17,Dermatologist,1100,Hyderabad,"Medanta The Medicity, Hyderabad",4.6
+DOC0961,Dr. Rajesh Verma,28,General Physician,1000,Chennai,"Max Super Speciality Hospital, Chennai",3.9
+DOC0962,Dr. Anjali Reddy,10,Cardiologist,1000,Ahmedabad,"KIMS Hospital, Ahmedabad",3.9
+DOC0963,Dr. Sandeep Patel,15,Neurologist,1050,Ahmedabad,"Care Hospital, Ahmedabad",4.0
+DOC0964,Dr. Nitin Patel,16,Neurologist,1000,Pune,"Max Super Speciality Hospital, Pune",4.3
+DOC0965,Dr. Ravi Sharma,21,Neurologist,1100,Ahmedabad,"Manipal Hospital, Ahmedabad",4.2
+DOC0966,Dr. Rohit Choudhury,8,Cardiologist,900,Bangalore,"Yashoda Hospital, Bangalore",5.0
+DOC0967,Dr. Deepika Patel,27,ENT Specialist,1000,Chennai,"Fortis Healthcare, Chennai",3.9
+DOC0968,Dr. Aditya Verma,24,Orthopedic Surgeon,1200,Kolkata,"Global Hospital, Kolkata",4.9
+DOC0969,Dr. Abhishek Kapoor,5,Cardiologist,850,Pune,"Medanta The Medicity, Pune",5.0
+DOC0970,Dr. Rohit Mishra,11,Psychiatrist,850,Bangalore,"Medanta The Medicity, Bangalore",4.0
+DOC0971,Dr. Kiran Mehta,32,Pediatrician,950,Kolkata,"AIMS, Kolkata",4.3
+DOC0972,Dr. Vikram Kumar,23,Cardiologist,1100,Ahmedabad,"Medanta The Medicity, Ahmedabad",4.7
+DOC0973,Dr. Pranav Banerjee,21,Neurologist,1150,Kolkata,"Care Hospital, Kolkata",4.9
+DOC0974,Dr. Priya Pillai,12,Psychiatrist,1000,Mumbai,"Manipal Hospital, Mumbai",4.0
+DOC0975,Dr. Vijay Reddy,5,Gastroenterologist,850,Bangalore,"KIMS Hospital, Bangalore",4.3
+DOC0976,Dr. Vikas Pillai,5,Gastroenterologist,850,Ahmedabad,"KIMS Hospital, Ahmedabad",4.4
+DOC0977,Dr. Nitin Singh,10,Gynecologist,850,Hyderabad,"Medanta The Medicity, Hyderabad",4.0
+DOC0978,Dr. Rajesh Deshmukh,20,General Physician,800,Mumbai,"AIMS, Mumbai",4.7
+DOC0979,Dr. Rajesh Banerjee,7,Orthopedic Surgeon,900,Delhi,"Yashoda Hospital, Delhi",3.8
+DOC0980,Dr. Rohit Kumar,28,Gynecologist,1150,Kolkata,"Max Super Speciality Hospital, Kolkata",3.8
+DOC0981,Dr. Sunita Pillai,32,Oncologist,1350,Mumbai,"Yashoda Hospital, Mumbai",5.0
+DOC0982,Dr. Rahul Kapoor,31,Gynecologist,1300,Hyderabad,"Apollo Hospital, Hyderabad",4.8
+DOC0983,Dr. Sanjay Mehta,6,ENT Specialist,450,Pune,"Fortis Healthcare, Pune",4.3
+DOC0984,Dr. Rajesh Joshi,28,Dermatologist,1150,Hyderabad,"Max Super Speciality Hospital, Hyderabad",4.3
+DOC0985,Dr. Deepika Nair,12,Dermatologist,950,Ahmedabad,"Care Hospital, Ahmedabad",4.7
+DOC0986,Dr. Pranav Nair,11,Gynecologist,850,Kolkata,"AIMS, Kolkata",4.0
+DOC0987,Dr. Sunita Das,33,Neurologist,1400,Delhi,"Care Hospital, Delhi",4.8
+DOC0988,Dr. Meena Reddy,30,Oncologist,1400,Delhi,"Apollo Hospital, Delhi",4.4
+DOC0989,Dr. Sunita Joshi,12,Gastroenterologist,850,Chennai,"KIMS Hospital, Chennai",4.3
+DOC0990,Dr. Pranav Pillai,22,Pediatrician,800,Chennai,"Manipal Hospital, Chennai",4.4
+DOC0991,Dr. Sanjay Bhasin,6,Psychiatrist,750,Mumbai,"AIMS, Mumbai",3.9
+DOC0992,Dr. Neha Banerjee,9,Gastroenterologist,850,Kolkata,"Medanta The Medicity, Kolkata",4.5
+DOC0993,Dr. Manoj Deshmukh,4,Dermatologist,800,Bangalore,"Max Super Speciality Hospital, Bangalore",4.8
+DOC0994,Dr. Aditya Gupta,29,ENT Specialist,950,Kolkata,"Global Hospital, Kolkata",4.7
+DOC0995,Dr. Manoj Choudhury,19,Gynecologist,1000,Hyderabad,"Max Super Speciality Hospital, Hyderabad",3.9
+DOC0996,Dr. Meena Rao,9,Ophthalmologist,750,Mumbai,"Care Hospital, Mumbai",3.9
+DOC0997,Dr. Rajesh Pillai,32,ENT Specialist,1100,Ahmedabad,"Medanta The Medicity, Ahmedabad",4.5
+DOC0998,Dr. Meena Mishra,28,Neurologist,1150,Bangalore,"Max Super Speciality Hospital, Bangalore",3.8
+DOC0999,Dr. Anil Sharma,15,Cardiologist,1000,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.6
+DOC1000,Dr. Neha Kulkarni,15,Dermatologist,1050,Ahmedabad,"Max Super Speciality Hospital, Ahmedabad",4.4

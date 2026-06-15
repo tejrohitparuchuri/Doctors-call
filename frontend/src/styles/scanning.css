@@ -1,0 +1,335 @@
+:root {
+    --bg-dark: #0c0c0c;
+    --panel-bg: rgba(28, 28, 30, 0.6);
+    --panel-border: rgba(255, 255, 255, 0.05);
+    --accent-red: #ef4444;
+    --accent-amber: #f59e0b;
+    --accent-green: #10b981;
+}
+
+.scanner-page-body {
+    background-color: var(--bg-dark);
+    background-image: 
+        radial-gradient(at 50% 0%, rgba(239, 68, 68, 0.08) 0, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(16, 185, 129, 0.03) 0, transparent 40%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, sans-serif;
+    gap: 20px;
+    padding-top: 120px;
+    color: #ffffff;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    background: rgba(30, 30, 30, 0.5);
+    backdrop-filter: blur(12px);
+    padding: 4px;
+    border-radius: 10px;
+    gap: 4px;
+    z-index: 10;
+}
+
+.menu-btn {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+    color: #475569;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.menu-btn:hover { color: #94a3b8; }
+
+.menu-btn.active {
+    color: var(--accent-red);
+}
+
+.menu-indicator {
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    background: rgba(239, 68, 68, 0.15);
+    border-radius: 6px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1;
+}
+
+.workspace {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 420px;
+    height: 600px;
+    cursor: none;
+    background-color: #141414;
+    border-radius: 16px;
+    box-shadow: 0 30px 60px -15px rgba(0,0,0,0.8);
+    overflow: hidden;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(255,255,255,0.01) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.01) 1px, transparent 1px);
+    background-size: 25px 25px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.internal-layer {
+    position: absolute;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    padding: 20px;
+}
+
+.internal-layer.active { display: flex; }
+
+.skin-layer {
+    position: absolute;
+    inset: 0;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    z-index: 3;
+    padding: 20px;
+}
+
+svg {
+    width: 90%;
+    height: 90%;
+}
+
+.lens-ring {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--accent-red);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(239, 68, 68, 0.2);
+}
+.lens-ring::before {
+    content: '';
+    width: 2px;
+    height: 2px;
+    background: var(--accent-red);
+    border-radius: 50%;
+}
+
+.info-panel {
+    width: 350px;
+    height: 600px;
+    background: var(--panel-bg);
+    backdrop-filter: blur(16px);
+    border-radius: 16px;
+    padding: 25px;
+    color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    transition: border 0.3s ease;
+}
+
+.info-panel.locked {
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-tag {
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: #64748b;
+}
+
+.info-panel.locked .info-tag {
+    color: var(--accent-red);
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.info-panel h3 {
+    font-size: 1.25rem;
+    color: #f1f5f9;
+}
+
+.meta-box {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.meta-line {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+}
+
+.meta-line span:first-child { color: #475569; }
+.meta-line span:last-child { font-family: monospace; color: #cbd5e1; }
+
+.target-display {
+    border-left: 2px solid var(--accent-red);
+    padding-left: 12px;
+    margin-top: 5px;
+}
+
+.info-panel.locked .target-display {
+    border-left-color: var(--accent-red);
+}
+
+.target-display h4 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: #64748b;
+    letter-spacing: 0.5px;
+}
+
+.target-display div {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #f1f5f9;
+    margin-top: 2px;
+}
+
+.status-footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    color: #475569;
+    font-family: monospace;
+}
+
+.status-dot {
+    width: 6px;
+    height: 6px;
+    background: #334155;
+    border-radius: 50%;
+}
+
+.info-panel.locked .status-dot {
+    background: var(--accent-red);
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse { 50% { opacity: 0.3; } }
+
+header.app-header {
+    /* Mapped to global .app-header rules in index.css */
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    width: 28px;
+    height: 28px;
+    background: var(--accent-red);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.logo-text {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+nav a:hover, nav a.active {
+    color: var(--accent-red);
+}
+
+.btn-profile {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    color: #52525b;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    cursor: not-allowed;
+    transition: all 0.25s ease;
+    margin-top: 10px;
+    opacity: 0.5;
+    font-family: inherit;
+}
+
+.btn-profile.active {
+    background: var(--accent-red);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.btn-profile.active:hover {
+    background: #c9c9c9;
+    color: var(--accent-red);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+}

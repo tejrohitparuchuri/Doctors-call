@@ -1,0 +1,213 @@
+:root {
+    --bg-dark: #0c0c0c;
+    --panel-bg: rgba(28, 28, 30, 0.6);
+    --panel-border: rgba(255, 255, 255, 0.05);
+    --accent-red: #ef4444;
+    --accent-red-hover: #dc2626;
+    --accent-red-glow: rgba(239, 68, 68, 0.1);
+    --text-primary: #ffffff;
+    --text-secondary: #a1a1aa;
+}
+
+.session-page-body {
+    background-color: var(--bg-dark);
+    background-image: 
+        radial-gradient(at 0% 0%, var(--accent-red-glow) 0, transparent 45%),
+        radial-gradient(at 100% 100%, rgba(255, 255, 255, 0.01) 0, transparent 40%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-primary);
+    overflow-x: hidden;
+}
+
+.session-container {
+    max-width: 900px;
+    width: 100%;
+    margin: 120px auto 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.session-title-block {
+    text-align: center;
+}
+
+.session-title-block h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.session-title-block p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.sessions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.session-card {
+    background: var(--panel-bg);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--panel-border);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.session-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.session-info {
+    flex: 1;
+}
+
+.session-header-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.session-type-badge {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.session-type-badge.online {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+}
+
+.session-type-badge.offline {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
+}
+
+.session-expiry-badge {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--accent-red);
+}
+
+.session-doc-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.session-doc-specialty {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+}
+
+.session-meta-row {
+    display: flex;
+    gap: 25px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.session-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.session-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    min-width: 220px;
+}
+
+.calls-remaining-text {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.calls-remaining-highlight {
+    color: var(--accent-red);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.btn-action {
+    width: 100%;
+    padding: 14px 24px;
+    background: var(--accent-red);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.btn-action:hover {
+    background: var(--accent-red-hover);
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+}
+
+.no-sessions-card {
+    background: var(--panel-bg);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--panel-border);
+    border-radius: 20px;
+    padding: 50px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.no-sessions-card h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.no-sessions-card p {
+    color: var(--text-secondary);
+    max-width: 400px;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .session-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .session-actions {
+        width: 100%;
+        align-items: flex-start;
+    }
+}
