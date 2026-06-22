@@ -17,7 +17,6 @@ https://doctors--call.web.app/
 - Engine: React.js (Vite compiler build)
 - Routing: React Router DOM (Single Page Application telemetry router)
 - Presentation Layouts: Outlined responsive CSS variables with ambient dark glows and high-contrast red interactive matrices
-- Cloud Service: Firebase JS SDK (App Core, Analytics tracker, and Realtime Database link)
 
 ### Telemetry Server Backend
 - Engine: Express.js (Node.js runtime environment)
@@ -48,14 +47,6 @@ https://doctors--call.web.app/
 - Maximum utilization allowance of 2 active calls per session.
 - Real-time digital clock display tracking session authorization decay.
 - Navigation coordinate maps and directions mapping offline physical journeys.
-
----
-
-## Firebase Realtime Database Telemetry Synchronization
-
-- The application uses Firebase Realtime Database to synchronize diagnostic metadata.
-- Specialist Node: All doctor data records parsed from the CSV are seeded directly into the Firebase `/doctors` database path.
-- Client Profiles Node: Patient profile specifications, authorizations, and locked anatomical scan structures synchronize in real-time to `/users/{userId}`.
 
 ---
 

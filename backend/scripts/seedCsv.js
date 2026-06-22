@@ -1,43 +1,8 @@
 const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
-const mongoose = require('mongoose');
 const User = require('../models/User');
 const Doctor = require('../models/Doctor');
-
-const specialtyToParts = {
-    'ENT Specialist': ["Organs"],
-    'General Physician': ["Organs", "Muscle"],
-    'Psychiatrist': ["Brain"],
-    'Dermatologist': ["Organs"],
-    'Orthopedic Surgeon': ["Bones", "Muscle"],
-    'Gynecologist': ["Organs"],
-    'Oncologist': ["Organs"],
-    'Neurologist': ["Brain", "Organs"],
-    'Ophthalmologist': ["Organs"],
-    'Cardiologist': ["Organs"],
-    'Pediatrician': ["Organs"],
-    'Gastroenterologist': ["Organs"]
-};
-
-function parseCSVLine(line) {
-    const result = [];
-    let current = '';
-    let inQuotes = false;
-    for (let i = 0; i < line.length; i++) {
-        const char = line[i];
-        if (char === '"') {
-            inQuotes = !inQuotes;
-        } else if (char === ',' && !inQuotes) {
-            result.push(current.trim());
-            current = '';
-        } else {
-            current += char;
-        }
-    }
-    result.push(current.trim());
-    return result;
-}
 
 const seedCsvDoctors = async () => {
     try {
@@ -45,14 +10,13 @@ const seedCsvDoctors = async () => {
         const adminExists = await User.findOne({ email: 'admin@doctor.com' });
         if (!adminExists) {
             await User.create({
+                fullName: 'Admin User',
                 email: 'admin@doctor.com',
                 password: '123456',
                 role: 'admin',
-                age: 30,
-                gender: 'Male',
-                bloodGroup: 'O+',
-                healthCondition: 'None',
-                insuranceId: 'ADMIN-001'
+                type: 'admin',
+                phone: '1234567890',
+                isdoctor: false
             });
             console.log('Admin credentials seeded: admin@doctor.com / 123456');
         }
@@ -86,27 +50,35 @@ const seedCsvDoctors = async () => {
                 continue;
             }
 
-            const cols = parseCSVLine(line);
+            const cols = [];
+            let current = '';
+            let inQuotes = false;
+            for (let i = 0; i < line.length; i++) {
+                const char = line[i];
+                if (char === '"') {
+                    inQuotes = !inQuotes;
+                } else if (char === ',' && !inQuotes) {
+                    cols.push(current.trim());
+                    current = '';
+                } else {
+                    current += char;
+                }
+            }
+            cols.push(current.trim());
+
             if (cols.length < 8) continue;
 
             const [docId, name, exp, specialty, fee, place, hospitalName, rating] = cols;
 
-            // Generate initials
-            const names = name.replace('Dr. ', '').split(' ');
-            const initials = names.map(n => n[0]).join('').substring(0, 3).toUpperCase();
-
             doctorsData.push({
                 docId,
-                name,
+                name: name.replace(/^"|"$/g, ''),
                 email: `doctor.${docId.toLowerCase()}@aesculapius.med`,
-                experience: parseInt(exp) || 0,
-                specialty,
-                cost: parseInt(fee), // Direct Avg Fee (INR) from CSV
-                place,
-                hospitalName: hospitalName.replace(/^"|"$/g, ''),
-                rating: parseFloat(rating) || 0,
-                initials: initials || 'DOC',
-                parts: specialtyToParts[specialty] || ["Organs"]
+                experience: exp.trim(),
+                specialty: specialty.trim(),
+                cost: parseInt(fee) || 500,
+                place: place.trim(),
+                hospitalName: hospitalName.replace(/^"|"$/g, '')
             });
         }
 
@@ -120,9 +92,13 @@ const seedCsvDoctors = async () => {
             
             // Create user batch
             const userDocs = batch.map(d => ({
+                fullName: d.name,
                 email: d.email,
                 password: 'doctorpassword123',
-                role: 'doctor'
+                role: 'doctor',
+                type: 'doctor',
+                isdoctor: true,
+                phone: '9999999999'
             }));
 
             const createdUsers = await User.insertMany(userDocs);
@@ -130,16 +106,15 @@ const seedCsvDoctors = async () => {
             // Map user IDs back to doctors and insert doctors batch
             const doctorDocs = batch.map((d, index) => ({
                 userId: createdUsers[index]._id,
-                name: d.name,
-                specialty: d.specialty,
-                cost: d.cost,
-                initials: d.initials,
-                parts: d.parts,
-                experience: d.experience,
-                place: d.place,
-                hospitalName: d.hospitalName,
-                rating: d.rating,
-                isApproved: true
+                fullname: d.name,
+                email: d.email,
+                phone: '9999999999',
+                address: `${d.hospitalName}, ${d.place}, India`,
+                specialisation: d.specialty,
+                experience: `${d.experience} years`,
+                fees: d.cost,
+                timings: ['09:00 - 13:00', '15:00 - 19:00'],
+                status: 'approved'
             }));
 
             await Doctor.insertMany(doctorDocs);

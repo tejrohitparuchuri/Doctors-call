@@ -1,12 +1,13 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
+const path = require('path');
 const connectDB = require('./config/db');
-
-const Doctor = require('./models/Doctor');
-const User = require('./models/User');
+const seedCsvDoctors = require('./scripts/seedCsv');
 
 dotenv.config();
+
+// Connect to MongoDB
 connectDB();
 
 const app = express();
@@ -14,11 +15,15 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/auth', require('./routes/auth'));
-app.use('/api/doctors', require('./routes/doctors'));
-app.use('/api/appointments', require('./routes/appointments'));
+// Serve uploads folder static files
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-const seedCsvDoctors = require('./scripts/seedCsv');
+// Routes
+app.use('/api/user', require('./routes/userRoutes'));
+app.use('/api/admin', require('./routes/adminRoutes'));
+app.use('/api/doctor', require('./routes/doctorRoutes'));
+
+// Run CSV Seeding
 seedCsvDoctors();
 
 const PORT = process.env.PORT || 5000;

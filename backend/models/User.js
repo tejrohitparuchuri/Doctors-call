@@ -2,6 +2,15 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
 const UserSchema = new mongoose.Schema({
+    fullName: {
+        type: String,
+        required: true,
+        trim: true,
+        set: function(val) {
+            if (typeof val !== 'string') return val;
+            return val.charAt(0).toUpperCase() + val.slice(1);
+        }
+    },
     email: {
         type: String,
         required: true,
@@ -18,12 +27,26 @@ const UserSchema = new mongoose.Schema({
         enum: ['patient', 'doctor', 'admin'],
         default: 'patient'
     },
-    age: Number,
-    gender: String,
-    bloodGroup: String,
-    healthCondition: String,
-    insuranceId: String,
-    savedParts: [String]
+    isdoctor: {
+        type: Boolean,
+        default: false
+    },
+    type: {
+        type: String,
+        default: 'user'
+    },
+    phone: {
+        type: String,
+        default: ''
+    },
+    notification: {
+        type: Array,
+        default: []
+    },
+    seennotification: {
+        type: Array,
+        default: []
+    }
 }, { timestamps: true });
 
 UserSchema.pre('save', async function () {
@@ -36,4 +59,4 @@ UserSchema.methods.matchPassword = async function (enteredPassword) {
     return await bcrypt.compare(enteredPassword, this.password);
 };
 
-module.exports = mongoose.model('User', UserSchema);
+module.exports = mongoose.model('user', UserSchema);
