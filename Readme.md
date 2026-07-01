@@ -2,12 +2,6 @@
 
 Doctors' Call is a clinical telemetry array and diagnostic connection network. The platform features an interactive sub-surface anatomical scanner, a dynamic specialist matrix router, automated transaction pipelines, and active session tele-presence consultation windows.
 
----
-
-## Live Demonstration
-
-The deployed frontend interface is accessible publically at:
-https://doctors--call.web.app/
 
 ---
 
