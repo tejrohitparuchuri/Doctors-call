@@ -23,6 +23,11 @@ app.use('/api/user', require('./routes/userRoutes'));
 app.use('/api/admin', require('./routes/adminRoutes'));
 app.use('/api/doctor', require('./routes/doctorRoutes'));
 
+// Restored previous routes
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api/doctors', require('./routes/doctors'));
+app.use('/api/appointments', require('./routes/appointments'));
+
 // Run CSV Seeding
 seedCsvDoctors();
 

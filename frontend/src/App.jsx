@@ -1,64 +1,28 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Home from './pages/Home';
 import Login from './pages/Login';
-import Register from './pages/Register';
-import UserHome from './pages/UserHome';
-import AdminHome from './pages/AdminHome';
-import DoctorHome from './pages/DoctorHome';
+import Scanner from './pages/Scanner';
+import DoctorsHub from './pages/DoctorsHub';
+import Purchase from './pages/Purchase';
+import Call from './pages/Call';
+import Profile from './pages/Profile';
+import Session from './pages/Session';
+import Admin from './pages/Admin';
 
 // Protected Route Guard
-const ProtectedRoute = ({ children, allowedRoles }) => {
-    const info = localStorage.getItem('userInfo');
-    if (!info) {
+const ProtectedRoute = ({ children }) => {
+    const userInfo = localStorage.getItem('userInfo');
+    if (!userInfo) {
         return <Navigate to="/login" replace />;
     }
-    
-    try {
-        const parsed = JSON.parse(info);
-        const userType = parsed.userData?.type || parsed.userData?.role;
-        const isDoc = parsed.userData?.isdoctor;
-
-        if (allowedRoles) {
-            if (allowedRoles.includes('admin') && userType === 'admin') {
-                return children;
-            }
-            if (allowedRoles.includes('doctor') && isDoc) {
-                return children;
-            }
-            if (allowedRoles.includes('user') && userType === 'user' && !isDoc) {
-                return children;
-            }
-            // Fallback redirect
-            return <Navigate to="/" replace />;
-        }
-    } catch (e) {
-        localStorage.removeItem('userInfo');
-        return <Navigate to="/login" replace />;
-    }
-    
     return children;
 };
 
-// Public Route Guard (Redirects to dashboard if already logged in)
+// Public Route Guard (Redirects to profile if already logged in)
 const PublicRoute = ({ children }) => {
-    const info = localStorage.getItem('userInfo');
-    if (info) {
-        try {
-            const parsed = JSON.parse(info);
-            const userType = parsed.userData?.type || parsed.userData?.role;
-            const isDoc = parsed.userData?.isdoctor;
-
-            if (userType === 'admin') {
-                return <Navigate to="/adminhome" replace />;
-            } else if (isDoc) {
-                return <Navigate to="/doctorhome" replace />;
-            } else {
-                return <Navigate to="/userhome" replace />;
-            }
-        } catch (e) {
-            localStorage.removeItem('userInfo');
-        }
+    const userInfo = localStorage.getItem('userInfo');
+    if (userInfo) {
+        return <Navigate to="/profile" replace />;
     }
     return children;
 };
@@ -68,14 +32,6 @@ function App() {
         <Router>
             <Routes>
                 <Route 
-                    path="/" 
-                    element={
-                        <PublicRoute>
-                            <Home />
-                        </PublicRoute>
-                    } 
-                />
-                <Route 
                     path="/login" 
                     element={
                         <PublicRoute>
@@ -84,46 +40,69 @@ function App() {
                     } 
                 />
                 <Route 
-                    path="/register" 
+                    path="/scanner" 
                     element={
-                        <PublicRoute>
-                            <Register />
-                        </PublicRoute>
-                    } 
-                />
-                <Route 
-                    path="/userhome" 
-                    element={
-                        <ProtectedRoute allowedRoles={['user', 'doctor']}>
-                            <UserHome />
+                        <ProtectedRoute>
+                            <Scanner />
                         </ProtectedRoute>
                     } 
                 />
                 <Route 
-                    path="/doctorhome" 
+                    path="/hub" 
                     element={
-                        <ProtectedRoute allowedRoles={['doctor']}>
-                            <DoctorHome />
+                        <ProtectedRoute>
+                            <DoctorsHub />
                         </ProtectedRoute>
                     } 
                 />
                 <Route 
-                    path="/adminhome" 
+                    path="/purchase" 
                     element={
-                        <ProtectedRoute allowedRoles={['admin']}>
-                            <AdminHome />
+                        <ProtectedRoute>
+                            <Purchase />
                         </ProtectedRoute>
                     } 
                 />
-                
-                {/* Fallback Routing */}
+                <Route 
+                    path="/call" 
+                    element={
+                        <ProtectedRoute>
+                            <Call />
+                        </ProtectedRoute>
+                    } 
+                />
+                <Route 
+                    path="/profile" 
+                    element={
+                        <ProtectedRoute>
+                            <Profile />
+                        </ProtectedRoute>
+                    } 
+                />
+                <Route 
+                    path="/session" 
+                    element={
+                        <ProtectedRoute>
+                            <Session />
+                        </ProtectedRoute>
+                    } 
+                />
+                <Route 
+                    path="/admin" 
+                    element={
+                        <ProtectedRoute>
+                            <Admin />
+                        </ProtectedRoute>
+                    } 
+                />
+                {/* Fallback routing */}
                 <Route 
                     path="*" 
                     element={
                         localStorage.getItem('userInfo') ? (
-                            <PublicRoute><div>Redirecting...</div></PublicRoute>
+                            <Navigate to="/profile" replace />
                         ) : (
-                            <Navigate to="/" replace />
+                            <Navigate to="/login" replace />
                         )
                     } 
                 />

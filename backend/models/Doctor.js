@@ -3,53 +3,35 @@ const mongoose = require('mongoose');
 const DoctorSchema = new mongoose.Schema({
     userId: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'user',
+        ref: 'User',
         required: true,
         unique: true
     },
-    fullname: {
-        type: String,
-        required: true,
-        trim: true,
-        set: function(val) {
-            if (typeof val !== 'string') return val;
-            return val.charAt(0).toUpperCase() + val.slice(1);
-        }
-    },
-    email: {
-        type: String,
-        required: true,
-        trim: true,
-        lowercase: true
-    },
-    phone: {
+    name: {
         type: String,
         required: true
     },
-    address: {
+    specialty: {
         type: String,
         required: true
     },
-    specialisation: {
-        type: String,
-        required: true
-    },
-    experience: {
-        type: String,
-        required: true
-    },
-    fees: {
+    cost: {
         type: Number,
         required: true
     },
-    timings: {
-        type: [String],
+    initials: {
+        type: String,
         required: true
     },
-    status: {
-        type: String,
-        default: 'pending'
+    parts: [String],
+    experience: Number,
+    place: String,
+    hospitalName: String,
+    rating: Number,
+    isApproved: {
+        type: Boolean,
+        default: false
     }
 }, { timestamps: true });
 
-module.exports = mongoose.model('doctor', DoctorSchema);
+module.exports = mongoose.model('Doctor', DoctorSchema);

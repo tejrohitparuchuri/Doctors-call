@@ -1,28 +1,43 @@
 const mongoose = require('mongoose');
 
 const AppointmentSchema = new mongoose.Schema({
-    doctorInfo: {
+    patientId: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'doctor',
+        ref: 'User',
         required: true
     },
-    userInfo: {
+    doctorId: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'user',
+        ref: 'Doctor',
         required: true
     },
-    date: {
-        type: String,
+    dateTime: {
+        type: Date,
         required: true
     },
     status: {
         type: String,
+        enum: ['pending', 'approved', 'confirmed', 'cancelled'],
         default: 'pending'
     },
-    document: {
-        name: { type: String },
-        path: { type: String }
-    }
+    paymentStatus: {
+        type: String,
+        enum: ['unpaid', 'paid'],
+        default: 'unpaid'
+    },
+    consultationType: {
+        type: String,
+        enum: ['online', 'offline'],
+        default: 'online'
+    },
+    expiresAt: {
+        type: Date
+    },
+    callsRemaining: {
+        type: Number,
+        default: 2
+    },
+    documents: [String]
 }, { timestamps: true });
 
-module.exports = mongoose.model('appointment', AppointmentSchema);
+module.exports = mongoose.model('Appointment', AppointmentSchema);

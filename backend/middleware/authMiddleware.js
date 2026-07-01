@@ -17,6 +17,7 @@ const authMiddleware = async (req, res, next) => {
             if (err) {
                 return res.status(401).json({ message: 'Authorization failed: invalid token', success: false });
             } else {
+                req.body = req.body || {};
                 req.body.userId = decoded.id;
                 next();
             }

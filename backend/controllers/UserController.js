@@ -24,13 +24,15 @@ const registerController = async (req, res) => {
             return res.status(400).json({ message: 'User already exists', success: false });
         }
 
+        const userType = type || 'user';
+        const userRole = userType === 'user' ? 'patient' : userType;
         const newUser = new User({
             fullName,
             email,
             password,
             phone: phone || '',
-            type: type || 'user',
-            role: type || 'patient'
+            type: userType,
+            role: userRole
         });
 
         await newUser.save();

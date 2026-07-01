@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const UserSchema = new mongoose.Schema({
     fullName: {
         type: String,
-        required: true,
+        required: false,
         trim: true,
         set: function(val) {
             if (typeof val !== 'string') return val;
@@ -38,6 +38,15 @@ const UserSchema = new mongoose.Schema({
     phone: {
         type: String,
         default: ''
+    },
+    age: Number,
+    gender: String,
+    bloodGroup: String,
+    healthCondition: String,
+    insuranceId: String,
+    savedParts: {
+        type: [String],
+        default: []
     },
     notification: {
         type: Array,
