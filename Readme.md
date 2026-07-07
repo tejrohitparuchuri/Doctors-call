@@ -4,6 +4,7 @@ Welcome to the Doctors' Call repository! This is a production-grade, full-stack 
 
 ---
 
+You can also access the projrct through : href="[Your-Google-Drive-URL](https://drive.google.com/file/d/1nwKshpUqH5ZjTalz5jn6kxu1hjzoKBME/view?usp=sharing)">Drive</a>
 
 
 ### 🔑 Pre-seeded Test Accounts
