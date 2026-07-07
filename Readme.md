@@ -4,12 +4,7 @@ Welcome to the Doctors' Call repository! This is a production-grade, full-stack 
 
 ---
 
-## 🔗 Live Demo & Test Credentials
 
-You can access the live deployment of the application:
-
-* 🌐 **Doctors' Call Web Application (Vercel)**: `https://<your-vercel-domain>.vercel.app` *(To be populated upon deployment)*
-* ⚙️ **Backend REST API (Render)**: `https://doctors-call-backend.onrender.com` *(To be populated upon deployment)*
 
 ### 🔑 Pre-seeded Test Accounts
 
